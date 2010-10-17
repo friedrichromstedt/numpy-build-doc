@@ -1,0 +1,22 @@
+.. index::
+    single: 2010-10-14 03 Cython 0.13;
+    double: py2.5.4; Cython
+
+2010-10-14: Cython 0.13 in py2.5
+================================
+
+*   Installing Cython 0.13 from::
+        
+        Shared/Downloads/2010/Cython/Cython-0.13.tar.gz
+
+    from http://www.cython.org/release/Cython-0.13.tar.gz into python2.5::
+
+        Python 2.5.4 (r254:67917, Dec 23 2008, 14:57:27) 
+        [GCC 4.0.1 (Apple Computer, Inc. build 5363)] on darwin
+
+    Using::
+
+        python2.5 setup.py build 2>&1 | tee setup-build.log
+        python2.5 setup.py install 2>&1 | tee setup-install.log
+
+    Logfiles got somehow lost.

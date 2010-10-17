@@ -1,0 +1,23 @@
+.. index::
+    single: macosx10.5 2010-10-14 01 Python 2.5.4
+    single: Python 2.5.4
+
+2010-10-14: Python 2.5.4
+========================
+
+*   Installed Python 2.5.4 from::
+        
+        Shared/Downloads/2010/python.org/python-2.5.4-macosx.dmg
+
+    from http://www.python.org. /usr/local/bin/ did not contain any pythonic 
+    stuff before.  PATH must be extended by the Framework path to use the 
+    python.
+
+    Afterwards (``|grep python``)::
+
+        lrwxr-xr-x  1 root  wheel      68 Oct 14 14:25 python -> ../../../Library/Frameworks/Python.framework/Versions/2.5/bin/python
+        lrwxr-xr-x  1 root  wheel      75 Oct 14 14:25 python-config -> ../../../Library/Frameworks/Python.framework/Versions/2.5/bin/python-config
+        lrwxr-xr-x  1 root  wheel      71 Oct 14 14:25 python2.5 -> ../../../Library/Frameworks/Python.framework/Versions/2.5/bin/python2.5
+        lrwxr-xr-x  1 root  wheel      78 Oct 14 14:25 python2.5-config -> ../../../Library/Frameworks/Python.framework/Versions/2.5/bin/python2.5-config
+        lrwxr-xr-x  1 root  wheel      69 Oct 14 14:25 pythonw -> ../../../Library/Frameworks/Python.framework/Versions/2.5/bin/pythonw
+        lrwxr-xr-x  1 root  wheel      72 Oct 14 14:25 pythonw2.5 -> ../../../Library/Frameworks/Python.framework/Versions/2.5/bin/pythonw2.5

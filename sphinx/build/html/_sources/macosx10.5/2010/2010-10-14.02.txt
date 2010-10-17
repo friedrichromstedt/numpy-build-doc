@@ -1,0 +1,17 @@
+.. index::
+    single: macosx10.5 2010-10-14 02 gfortran 4.2.3
+    single: gfortran
+
+2010-10-14: gfortran 4.2.3
+==========================
+
+*   Installing gfortran 4.2.3 from::
+
+        Shared/Downloads/2010/gfortran/gfortran-4.2.3.dmg
+
+    from http://r.research.att.com/tools/ as recommended by the numpy
+    build instructions, the file is more precisely 
+    http://r.research.att.com/gfortran-4.2.3.dmg.
+
+    Binary distribution package.
+
