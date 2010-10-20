@@ -1,0 +1,21 @@
+.. index::
+    double: numpy; py2.5.4
+    
+
+2010-10-14: Installing numpy 2.0.0.dev? in py2.5
+================================================
+
+*   Compiling numpy with python2.5::
+        
+     
+        git clone http://github.com/numpy/numpy.git
+        git checkout v1.5.1rc1
+        105osxpython:numpy Vincent$ git checkout v1.5.1rc1
+		Note: checking out 'v1.5.1rc1'.
+		HEAD is now at 97cb28e... REL: set version number to 1.5.1rc1, released=True.
+
+        py26 setup.py build 2>&1 | tee Logs/10-10-15/setup-build.log
+        py26 setup.py install 2>&1 | tee Logs/10-10-15/setup-install.log
+    
+    :download:`//Users/Shared/Builds/2010/python2.6/numpy/setup-build.log`
+

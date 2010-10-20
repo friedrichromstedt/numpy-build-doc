@@ -1,0 +1,12 @@
+.. index::
+    single: Python 2.6.6
+
+2010-10-18: Python 2.6.6 (r266:84374, Aug 31 2010, 11:00:51)
+============================================================
+
+*   Installed Python 2.6.6 from::
+        
+        Shared/Downloads/2010/python.org/python-2.6.6-macosx10.3.dmg
+        
+        Python 2.6.6 (r266:84374, Aug 31 2010, 11:00:51) 
+        [GCC 4.0.1 (Apple Inc. build 5493)] on darwin

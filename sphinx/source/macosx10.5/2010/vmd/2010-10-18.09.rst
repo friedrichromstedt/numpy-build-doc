@@ -1,0 +1,13 @@
+.. index::
+    triple: python 2.6.6; Sphinx; Docs
+    double; python 2.6.6; Sphinx
+
+2010-10-15: Building Local Sphinx 1.0.4 Docs
+============================================
+
+*   Building the local Sphinx docs::
+
+        cd doc
+        sphinx-build . _build/html
+
+    The docs are here: http://vincentdavis.info/Shared/Builds/2010/python2.6/Sphinx/Sphinx-1.0.4/doc/_build/html/

@@ -1,0 +1,133 @@
+running install
+running bdist_egg
+running egg_info
+writing nose.egg-info/PKG-INFO
+writing top-level names to nose.egg-info/top_level.txt
+writing dependency_links to nose.egg-info/dependency_links.txt
+writing entry points to nose.egg-info/entry_points.txt
+reading manifest file 'nose.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'lgpl.txt'
+no previously-included directories found matching 'doc/.build'
+writing manifest file 'nose.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.3-fat/egg
+running install_lib
+running build_py
+creating build/bdist.macosx-10.3-fat
+creating build/bdist.macosx-10.3-fat/egg
+creating build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/__init__.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/case.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/commands.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/config.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/core.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/exc.py -> build/bdist.macosx-10.3-fat/egg/nose
+creating build/bdist.macosx-10.3-fat/egg/nose/ext
+copying build/lib/nose/ext/__init__.py -> build/bdist.macosx-10.3-fat/egg/nose/ext
+copying build/lib/nose/ext/dtcompat.py -> build/bdist.macosx-10.3-fat/egg/nose/ext
+copying build/lib/nose/failure.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/importer.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/inspector.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/loader.py -> build/bdist.macosx-10.3-fat/egg/nose
+creating build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/__init__.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/allmodules.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/attrib.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/base.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/builtin.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/capture.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/collect.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/cover.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/debug.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/deprecated.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/doctests.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/errorclass.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/failuredetail.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/isolate.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/logcapture.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/manager.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/multiprocess.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/plugintest.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/prof.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/skip.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/testid.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/plugins/xunit.py -> build/bdist.macosx-10.3-fat/egg/nose/plugins
+copying build/lib/nose/proxy.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/result.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/selector.py -> build/bdist.macosx-10.3-fat/egg/nose
+creating build/bdist.macosx-10.3-fat/egg/nose/sphinx
+copying build/lib/nose/sphinx/__init__.py -> build/bdist.macosx-10.3-fat/egg/nose/sphinx
+copying build/lib/nose/sphinx/pluginopts.py -> build/bdist.macosx-10.3-fat/egg/nose/sphinx
+copying build/lib/nose/suite.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/tools.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/twistedtools.py -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/usage.txt -> build/bdist.macosx-10.3-fat/egg/nose
+copying build/lib/nose/util.py -> build/bdist.macosx-10.3-fat/egg/nose
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/case.py to case.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/commands.py to commands.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/config.py to config.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/core.py to core.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/exc.py to exc.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/ext/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/ext/dtcompat.py to dtcompat.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/failure.py to failure.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/importer.py to importer.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/inspector.py to inspector.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/loader.py to loader.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/allmodules.py to allmodules.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/attrib.py to attrib.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/base.py to base.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/builtin.py to builtin.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/capture.py to capture.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/collect.py to collect.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/cover.py to cover.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/debug.py to debug.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/deprecated.py to deprecated.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/doctests.py to doctests.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/errorclass.py to errorclass.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/failuredetail.py to failuredetail.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/isolate.py to isolate.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/logcapture.py to logcapture.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/manager.py to manager.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/multiprocess.py to multiprocess.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/plugintest.py to plugintest.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/prof.py to prof.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/skip.py to skip.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/testid.py to testid.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/plugins/xunit.py to xunit.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/proxy.py to proxy.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/result.py to result.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/selector.py to selector.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/sphinx/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/sphinx/pluginopts.py to pluginopts.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/suite.py to suite.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/tools.py to tools.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/twistedtools.py to twistedtools.pyc
+byte-compiling build/bdist.macosx-10.3-fat/egg/nose/util.py to util.pyc
+installing package data to build/bdist.macosx-10.3-fat/egg
+running install_data
+creating build/bdist.macosx-10.3-fat/egg/man
+creating build/bdist.macosx-10.3-fat/egg/man/man1
+copying nosetests.1 -> build/bdist.macosx-10.3-fat/egg/man/man1
+creating build/bdist.macosx-10.3-fat/egg/EGG-INFO
+copying nose.egg-info/PKG-INFO -> build/bdist.macosx-10.3-fat/egg/EGG-INFO
+copying nose.egg-info/SOURCES.txt -> build/bdist.macosx-10.3-fat/egg/EGG-INFO
+copying nose.egg-info/dependency_links.txt -> build/bdist.macosx-10.3-fat/egg/EGG-INFO
+copying nose.egg-info/entry_points.txt -> build/bdist.macosx-10.3-fat/egg/EGG-INFO
+copying nose.egg-info/not-zip-safe -> build/bdist.macosx-10.3-fat/egg/EGG-INFO
+copying nose.egg-info/top_level.txt -> build/bdist.macosx-10.3-fat/egg/EGG-INFO
+creating dist
+creating 'dist/nose-0.11.3-py2.6.egg' and adding 'build/bdist.macosx-10.3-fat/egg' to it
+removing 'build/bdist.macosx-10.3-fat/egg' (and everything under it)
+Processing nose-0.11.3-py2.6.egg
+creating /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/nose-0.11.3-py2.6.egg
+Extracting nose-0.11.3-py2.6.egg to /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages
+Adding nose 0.11.3 to easy-install.pth file
+Installing nosetests-2.6 script to /Library/Frameworks/Python.framework/Versions/2.6/bin
+Installing nosetests script to /Library/Frameworks/Python.framework/Versions/2.6/bin
+
+Installed /Library/Frameworks/Python.framework/Versions/2.6/lib/python2.6/site-packages/nose-0.11.3-py2.6.egg
+Processing dependencies for nose==0.11.3
+Finished processing dependencies for nose==0.11.3

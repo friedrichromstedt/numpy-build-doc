@@ -1,0 +1,139 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Sphinx Coding Style (by Friedrich Romstedt) &mdash; Numpy Build Docs v1.5.1rc1 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.5.1rc1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Numpy Build Docs v1.5.1rc1 documentation" href="index.html" />
+    <link rel="next" title="Adding a Log Entry" href="AddingAnEntry.html" />
+    <link rel="prev" title="2010-10-14: Cython 0.13 in py2.5" href="macosx10.5/2010/2010-10-14.03.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="AddingAnEntry.html" title="Adding a Log Entry"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="macosx10.5/2010/2010-10-14.03.html" title="2010-10-14: Cython 0.13 in py2.5"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Numpy Build Docs v1.5.1rc1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="sphinx-coding-style-by-friedrich-romstedt">
+<span id="index-0"></span><h1>Sphinx Coding Style (by Friedrich Romstedt)<a class="headerlink" href="#sphinx-coding-style-by-friedrich-romstedt" title="Permalink to this headline">¶</a></h1>
+<p>I explain here my own coding style, in the hope to convince you, so that we
+have an uniform coding style.</p>
+<div class="section" id="paragraphs">
+<h2>Paragraphs<a class="headerlink" href="#paragraphs" title="Permalink to this headline">¶</a></h2>
+<p>Use line breaks, if you want inform yourself about vim&#8217;s paragraph handling
+capability.  For me, <tt class="docutils literal"><span class="pre">J</span></tt>, finding line end, <tt class="docutils literal"><span class="pre">i</span> <span class="pre">Enter</span> <span class="pre">Esc</span></tt>, <tt class="docutils literal"><span class="pre">J</span></tt>, ... do
+the job too.  Two spaces at line end at least (because of the intermediate
+space that may trail the last non-white char).</p>
+<p>Two spaces after full stop.  (vim will recognise sentences, and it <em>looks
+better</em>).</p>
+</div>
+<div class="section" id="sphinx-headings">
+<h2>Sphinx Headings<a class="headerlink" href="#sphinx-headings" title="Permalink to this headline">¶</a></h2>
+<p>Two newlines before the headline string.  Capitalise words accoding to
+well-known typographic rules, i.e., everything except &#8220;the&#8221;, &#8220;a&#8221;, &#8220;for&#8221;,
+&#8220;in&#8221;, &#8220;but&#8221;, etc.  Rule of thumb:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="nb">str</span><span class="p">)</span> <span class="o">&lt;=</span> <span class="mi">3</span><span class="p">:</span>
+    <span class="n">capitalise</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>But there are exceptions.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Sphinx Coding Style (by Friedrich Romstedt)</a><ul>
+<li><a class="reference internal" href="#paragraphs">Paragraphs</a></li>
+<li><a class="reference internal" href="#sphinx-headings">Sphinx Headings</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="macosx10.5/2010/2010-10-14.03.html"
+                        title="previous chapter">2010-10-14: Cython 0.13 in py2.5</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="AddingAnEntry.html"
+                        title="next chapter">Adding a Log Entry</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/SphinxStyle.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="AddingAnEntry.html" title="Adding a Log Entry"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="macosx10.5/2010/2010-10-14.03.html" title="2010-10-14: Cython 0.13 in py2.5"
+             >previous</a> |</li>
+        <li><a href="index.html">Numpy Build Docs v1.5.1rc1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2010, Friedrich Romstedt, Vincent Davis.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

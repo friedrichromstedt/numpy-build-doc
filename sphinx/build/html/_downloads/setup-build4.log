@@ -1,0 +1,319 @@
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/sphinx
+copying sphinx/__init__.py -> build/lib/sphinx
+copying sphinx/addnodes.py -> build/lib/sphinx
+copying sphinx/application.py -> build/lib/sphinx
+copying sphinx/cmdline.py -> build/lib/sphinx
+copying sphinx/config.py -> build/lib/sphinx
+copying sphinx/environment.py -> build/lib/sphinx
+copying sphinx/errors.py -> build/lib/sphinx
+copying sphinx/highlighting.py -> build/lib/sphinx
+copying sphinx/jinja2glue.py -> build/lib/sphinx
+copying sphinx/quickstart.py -> build/lib/sphinx
+copying sphinx/roles.py -> build/lib/sphinx
+copying sphinx/search.py -> build/lib/sphinx
+copying sphinx/setup_command.py -> build/lib/sphinx
+copying sphinx/theming.py -> build/lib/sphinx
+creating build/lib/sphinx/builders
+copying sphinx/builders/__init__.py -> build/lib/sphinx/builders
+copying sphinx/builders/changes.py -> build/lib/sphinx/builders
+copying sphinx/builders/devhelp.py -> build/lib/sphinx/builders
+copying sphinx/builders/epub.py -> build/lib/sphinx/builders
+copying sphinx/builders/html.py -> build/lib/sphinx/builders
+copying sphinx/builders/htmlhelp.py -> build/lib/sphinx/builders
+copying sphinx/builders/latex.py -> build/lib/sphinx/builders
+copying sphinx/builders/linkcheck.py -> build/lib/sphinx/builders
+copying sphinx/builders/manpage.py -> build/lib/sphinx/builders
+copying sphinx/builders/qthelp.py -> build/lib/sphinx/builders
+copying sphinx/builders/text.py -> build/lib/sphinx/builders
+creating build/lib/sphinx/directives
+copying sphinx/directives/__init__.py -> build/lib/sphinx/directives
+copying sphinx/directives/code.py -> build/lib/sphinx/directives
+copying sphinx/directives/other.py -> build/lib/sphinx/directives
+creating build/lib/sphinx/domains
+copying sphinx/domains/__init__.py -> build/lib/sphinx/domains
+copying sphinx/domains/c.py -> build/lib/sphinx/domains
+copying sphinx/domains/cpp.py -> build/lib/sphinx/domains
+copying sphinx/domains/javascript.py -> build/lib/sphinx/domains
+copying sphinx/domains/python.py -> build/lib/sphinx/domains
+copying sphinx/domains/rst.py -> build/lib/sphinx/domains
+copying sphinx/domains/std.py -> build/lib/sphinx/domains
+creating build/lib/sphinx/ext
+copying sphinx/ext/__init__.py -> build/lib/sphinx/ext
+copying sphinx/ext/autodoc.py -> build/lib/sphinx/ext
+copying sphinx/ext/coverage.py -> build/lib/sphinx/ext
+copying sphinx/ext/doctest.py -> build/lib/sphinx/ext
+copying sphinx/ext/extlinks.py -> build/lib/sphinx/ext
+copying sphinx/ext/graphviz.py -> build/lib/sphinx/ext
+copying sphinx/ext/ifconfig.py -> build/lib/sphinx/ext
+copying sphinx/ext/inheritance_diagram.py -> build/lib/sphinx/ext
+copying sphinx/ext/intersphinx.py -> build/lib/sphinx/ext
+copying sphinx/ext/jsmath.py -> build/lib/sphinx/ext
+copying sphinx/ext/mathbase.py -> build/lib/sphinx/ext
+copying sphinx/ext/oldcmarkup.py -> build/lib/sphinx/ext
+copying sphinx/ext/pngmath.py -> build/lib/sphinx/ext
+copying sphinx/ext/refcounting.py -> build/lib/sphinx/ext
+copying sphinx/ext/todo.py -> build/lib/sphinx/ext
+copying sphinx/ext/viewcode.py -> build/lib/sphinx/ext
+creating build/lib/sphinx/locale
+copying sphinx/locale/__init__.py -> build/lib/sphinx/locale
+creating build/lib/sphinx/pycode
+copying sphinx/pycode/__init__.py -> build/lib/sphinx/pycode
+copying sphinx/pycode/nodes.py -> build/lib/sphinx/pycode
+creating build/lib/sphinx/util
+copying sphinx/util/__init__.py -> build/lib/sphinx/util
+copying sphinx/util/compat.py -> build/lib/sphinx/util
+copying sphinx/util/console.py -> build/lib/sphinx/util
+copying sphinx/util/docfields.py -> build/lib/sphinx/util
+copying sphinx/util/docstrings.py -> build/lib/sphinx/util
+copying sphinx/util/inspect.py -> build/lib/sphinx/util
+copying sphinx/util/jsdump.py -> build/lib/sphinx/util
+copying sphinx/util/jsonimpl.py -> build/lib/sphinx/util
+copying sphinx/util/matching.py -> build/lib/sphinx/util
+copying sphinx/util/nodes.py -> build/lib/sphinx/util
+copying sphinx/util/osutil.py -> build/lib/sphinx/util
+copying sphinx/util/png.py -> build/lib/sphinx/util
+copying sphinx/util/pycompat.py -> build/lib/sphinx/util
+copying sphinx/util/smartypants.py -> build/lib/sphinx/util
+copying sphinx/util/stemmer.py -> build/lib/sphinx/util
+copying sphinx/util/tags.py -> build/lib/sphinx/util
+copying sphinx/util/texescape.py -> build/lib/sphinx/util
+creating build/lib/sphinx/writers
+copying sphinx/writers/__init__.py -> build/lib/sphinx/writers
+copying sphinx/writers/html.py -> build/lib/sphinx/writers
+copying sphinx/writers/latex.py -> build/lib/sphinx/writers
+copying sphinx/writers/manpage.py -> build/lib/sphinx/writers
+copying sphinx/writers/text.py -> build/lib/sphinx/writers
+creating build/lib/sphinx/ext/autosummary
+copying sphinx/ext/autosummary/__init__.py -> build/lib/sphinx/ext/autosummary
+copying sphinx/ext/autosummary/generate.py -> build/lib/sphinx/ext/autosummary
+creating build/lib/sphinx/pycode/pgen2
+copying sphinx/pycode/pgen2/__init__.py -> build/lib/sphinx/pycode/pgen2
+copying sphinx/pycode/pgen2/driver.py -> build/lib/sphinx/pycode/pgen2
+copying sphinx/pycode/pgen2/grammar.py -> build/lib/sphinx/pycode/pgen2
+copying sphinx/pycode/pgen2/literals.py -> build/lib/sphinx/pycode/pgen2
+copying sphinx/pycode/pgen2/parse.py -> build/lib/sphinx/pycode/pgen2
+copying sphinx/pycode/pgen2/pgen.py -> build/lib/sphinx/pycode/pgen2
+copying sphinx/pycode/pgen2/token.py -> build/lib/sphinx/pycode/pgen2
+copying sphinx/pycode/pgen2/tokenize.py -> build/lib/sphinx/pycode/pgen2
+running egg_info
+writing requirements to Sphinx.egg-info/requires.txt
+writing Sphinx.egg-info/PKG-INFO
+writing top-level names to Sphinx.egg-info/top_level.txt
+writing dependency_links to Sphinx.egg-info/dependency_links.txt
+writing entry points to Sphinx.egg-info/entry_points.txt
+reading manifest file 'Sphinx.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'doc/_build'
+writing manifest file 'Sphinx.egg-info/SOURCES.txt'
+creating build/lib/sphinx/texinputs
+copying sphinx/texinputs/Makefile -> build/lib/sphinx/texinputs
+copying sphinx/texinputs/fncychap.sty -> build/lib/sphinx/texinputs
+copying sphinx/texinputs/python.ist -> build/lib/sphinx/texinputs
+copying sphinx/texinputs/sphinx.sty -> build/lib/sphinx/texinputs
+copying sphinx/texinputs/sphinxhowto.cls -> build/lib/sphinx/texinputs
+copying sphinx/texinputs/sphinxmanual.cls -> build/lib/sphinx/texinputs
+copying sphinx/texinputs/tabulary.sty -> build/lib/sphinx/texinputs
+creating build/lib/sphinx/themes
+creating build/lib/sphinx/themes/agogo
+copying sphinx/themes/agogo/layout.html -> build/lib/sphinx/themes/agogo
+copying sphinx/themes/agogo/theme.conf -> build/lib/sphinx/themes/agogo
+creating build/lib/sphinx/themes/agogo/static
+copying sphinx/themes/agogo/static/agogo.css_t -> build/lib/sphinx/themes/agogo/static
+copying sphinx/themes/agogo/static/bgfooter.png -> build/lib/sphinx/themes/agogo/static
+copying sphinx/themes/agogo/static/bgtop.png -> build/lib/sphinx/themes/agogo/static
+creating build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/defindex.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/domainindex.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/genindex-single.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/genindex-split.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/genindex.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/globaltoc.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/layout.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/localtoc.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/opensearch.xml -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/page.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/relations.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/search.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/searchbox.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/sourcelink.html -> build/lib/sphinx/themes/basic
+copying sphinx/themes/basic/theme.conf -> build/lib/sphinx/themes/basic
+creating build/lib/sphinx/themes/basic/changes
+copying sphinx/themes/basic/changes/frameset.html -> build/lib/sphinx/themes/basic/changes
+copying sphinx/themes/basic/changes/rstsource.html -> build/lib/sphinx/themes/basic/changes
+copying sphinx/themes/basic/changes/versionchanges.html -> build/lib/sphinx/themes/basic/changes
+creating build/lib/sphinx/themes/basic/static
+copying sphinx/themes/basic/static/basic.css -> build/lib/sphinx/themes/basic/static
+copying sphinx/themes/basic/static/doctools.js -> build/lib/sphinx/themes/basic/static
+copying sphinx/themes/basic/static/file.png -> build/lib/sphinx/themes/basic/static
+copying sphinx/themes/basic/static/jquery.js -> build/lib/sphinx/themes/basic/static
+copying sphinx/themes/basic/static/minus.png -> build/lib/sphinx/themes/basic/static
+copying sphinx/themes/basic/static/plus.png -> build/lib/sphinx/themes/basic/static
+copying sphinx/themes/basic/static/searchtools.js -> build/lib/sphinx/themes/basic/static
+copying sphinx/themes/basic/static/underscore.js -> build/lib/sphinx/themes/basic/static
+creating build/lib/sphinx/themes/default
+copying sphinx/themes/default/layout.html -> build/lib/sphinx/themes/default
+copying sphinx/themes/default/theme.conf -> build/lib/sphinx/themes/default
+creating build/lib/sphinx/themes/default/static
+copying sphinx/themes/default/static/default.css_t -> build/lib/sphinx/themes/default/static
+copying sphinx/themes/default/static/sidebar.js -> build/lib/sphinx/themes/default/static
+creating build/lib/sphinx/themes/epub
+copying sphinx/themes/epub/layout.html -> build/lib/sphinx/themes/epub
+copying sphinx/themes/epub/theme.conf -> build/lib/sphinx/themes/epub
+creating build/lib/sphinx/themes/epub/static
+copying sphinx/themes/epub/static/epub.css -> build/lib/sphinx/themes/epub/static
+creating build/lib/sphinx/themes/haiku
+copying sphinx/themes/haiku/layout.html -> build/lib/sphinx/themes/haiku
+copying sphinx/themes/haiku/theme.conf -> build/lib/sphinx/themes/haiku
+creating build/lib/sphinx/themes/haiku/static
+copying sphinx/themes/haiku/static/alert_info_32.png -> build/lib/sphinx/themes/haiku/static
+copying sphinx/themes/haiku/static/alert_warning_32.png -> build/lib/sphinx/themes/haiku/static
+copying sphinx/themes/haiku/static/bg-page.png -> build/lib/sphinx/themes/haiku/static
+copying sphinx/themes/haiku/static/bullet_orange.png -> build/lib/sphinx/themes/haiku/static
+copying sphinx/themes/haiku/static/haiku.css_t -> build/lib/sphinx/themes/haiku/static
+creating build/lib/sphinx/themes/nature
+copying sphinx/themes/nature/theme.conf -> build/lib/sphinx/themes/nature
+creating build/lib/sphinx/themes/nature/static
+copying sphinx/themes/nature/static/nature.css_t -> build/lib/sphinx/themes/nature/static
+creating build/lib/sphinx/themes/scrolls
+copying sphinx/themes/scrolls/layout.html -> build/lib/sphinx/themes/scrolls
+copying sphinx/themes/scrolls/theme.conf -> build/lib/sphinx/themes/scrolls
+creating build/lib/sphinx/themes/scrolls/artwork
+copying sphinx/themes/scrolls/artwork/logo.svg -> build/lib/sphinx/themes/scrolls/artwork
+creating build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/darkmetal.png -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/headerbg.png -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/logo.png -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/metal.png -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/navigation.png -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/print.css -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/scrolls.css_t -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/theme_extras.js -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/watermark.png -> build/lib/sphinx/themes/scrolls/static
+copying sphinx/themes/scrolls/static/watermark_blur.png -> build/lib/sphinx/themes/scrolls/static
+creating build/lib/sphinx/themes/sphinxdoc
+copying sphinx/themes/sphinxdoc/layout.html -> build/lib/sphinx/themes/sphinxdoc
+copying sphinx/themes/sphinxdoc/theme.conf -> build/lib/sphinx/themes/sphinxdoc
+creating build/lib/sphinx/themes/sphinxdoc/static
+copying sphinx/themes/sphinxdoc/static/contents.png -> build/lib/sphinx/themes/sphinxdoc/static
+copying sphinx/themes/sphinxdoc/static/navigation.png -> build/lib/sphinx/themes/sphinxdoc/static
+copying sphinx/themes/sphinxdoc/static/sphinxdoc.css -> build/lib/sphinx/themes/sphinxdoc/static
+creating build/lib/sphinx/themes/traditional
+copying sphinx/themes/traditional/theme.conf -> build/lib/sphinx/themes/traditional
+creating build/lib/sphinx/themes/traditional/static
+copying sphinx/themes/traditional/static/traditional.css -> build/lib/sphinx/themes/traditional/static
+copying sphinx/locale/sphinx.pot -> build/lib/sphinx/locale
+creating build/lib/sphinx/locale/bn
+creating build/lib/sphinx/locale/bn/LC_MESSAGES
+copying sphinx/locale/bn/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/bn/LC_MESSAGES
+copying sphinx/locale/bn/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/bn/LC_MESSAGES
+copying sphinx/locale/bn/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/bn/LC_MESSAGES
+creating build/lib/sphinx/locale/ca
+creating build/lib/sphinx/locale/ca/LC_MESSAGES
+copying sphinx/locale/ca/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/ca/LC_MESSAGES
+copying sphinx/locale/ca/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/ca/LC_MESSAGES
+copying sphinx/locale/ca/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/ca/LC_MESSAGES
+creating build/lib/sphinx/locale/cs
+creating build/lib/sphinx/locale/cs/LC_MESSAGES
+copying sphinx/locale/cs/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/cs/LC_MESSAGES
+copying sphinx/locale/cs/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/cs/LC_MESSAGES
+copying sphinx/locale/cs/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/cs/LC_MESSAGES
+creating build/lib/sphinx/locale/da
+creating build/lib/sphinx/locale/da/LC_MESSAGES
+copying sphinx/locale/da/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/da/LC_MESSAGES
+copying sphinx/locale/da/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/da/LC_MESSAGES
+copying sphinx/locale/da/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/da/LC_MESSAGES
+creating build/lib/sphinx/locale/de
+creating build/lib/sphinx/locale/de/LC_MESSAGES
+copying sphinx/locale/de/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/de/LC_MESSAGES
+copying sphinx/locale/de/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/de/LC_MESSAGES
+copying sphinx/locale/de/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/de/LC_MESSAGES
+creating build/lib/sphinx/locale/es
+creating build/lib/sphinx/locale/es/LC_MESSAGES
+copying sphinx/locale/es/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/es/LC_MESSAGES
+copying sphinx/locale/es/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/es/LC_MESSAGES
+copying sphinx/locale/es/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/es/LC_MESSAGES
+creating build/lib/sphinx/locale/fi
+creating build/lib/sphinx/locale/fi/LC_MESSAGES
+copying sphinx/locale/fi/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/fi/LC_MESSAGES
+copying sphinx/locale/fi/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/fi/LC_MESSAGES
+copying sphinx/locale/fi/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/fi/LC_MESSAGES
+creating build/lib/sphinx/locale/fr
+creating build/lib/sphinx/locale/fr/LC_MESSAGES
+copying sphinx/locale/fr/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/fr/LC_MESSAGES
+copying sphinx/locale/fr/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/fr/LC_MESSAGES
+copying sphinx/locale/fr/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/fr/LC_MESSAGES
+creating build/lib/sphinx/locale/hr
+creating build/lib/sphinx/locale/hr/LC_MESSAGES
+copying sphinx/locale/hr/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/hr/LC_MESSAGES
+copying sphinx/locale/hr/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/hr/LC_MESSAGES
+copying sphinx/locale/hr/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/hr/LC_MESSAGES
+creating build/lib/sphinx/locale/it
+creating build/lib/sphinx/locale/it/LC_MESSAGES
+copying sphinx/locale/it/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/it/LC_MESSAGES
+copying sphinx/locale/it/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/it/LC_MESSAGES
+copying sphinx/locale/it/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/it/LC_MESSAGES
+creating build/lib/sphinx/locale/ja
+creating build/lib/sphinx/locale/ja/LC_MESSAGES
+copying sphinx/locale/ja/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/ja/LC_MESSAGES
+copying sphinx/locale/ja/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/ja/LC_MESSAGES
+copying sphinx/locale/ja/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/ja/LC_MESSAGES
+creating build/lib/sphinx/locale/lt
+creating build/lib/sphinx/locale/lt/LC_MESSAGES
+copying sphinx/locale/lt/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/lt/LC_MESSAGES
+copying sphinx/locale/lt/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/lt/LC_MESSAGES
+copying sphinx/locale/lt/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/lt/LC_MESSAGES
+creating build/lib/sphinx/locale/nl
+creating build/lib/sphinx/locale/nl/LC_MESSAGES
+copying sphinx/locale/nl/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/nl/LC_MESSAGES
+copying sphinx/locale/nl/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/nl/LC_MESSAGES
+copying sphinx/locale/nl/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/nl/LC_MESSAGES
+creating build/lib/sphinx/locale/pl
+creating build/lib/sphinx/locale/pl/LC_MESSAGES
+copying sphinx/locale/pl/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/pl/LC_MESSAGES
+copying sphinx/locale/pl/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/pl/LC_MESSAGES
+copying sphinx/locale/pl/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/pl/LC_MESSAGES
+creating build/lib/sphinx/locale/pt_BR
+creating build/lib/sphinx/locale/pt_BR/LC_MESSAGES
+copying sphinx/locale/pt_BR/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/pt_BR/LC_MESSAGES
+copying sphinx/locale/pt_BR/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/pt_BR/LC_MESSAGES
+copying sphinx/locale/pt_BR/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/pt_BR/LC_MESSAGES
+creating build/lib/sphinx/locale/ru
+creating build/lib/sphinx/locale/ru/LC_MESSAGES
+copying sphinx/locale/ru/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/ru/LC_MESSAGES
+copying sphinx/locale/ru/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/ru/LC_MESSAGES
+copying sphinx/locale/ru/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/ru/LC_MESSAGES
+creating build/lib/sphinx/locale/sl
+creating build/lib/sphinx/locale/sl/LC_MESSAGES
+copying sphinx/locale/sl/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/sl/LC_MESSAGES
+copying sphinx/locale/sl/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/sl/LC_MESSAGES
+copying sphinx/locale/sl/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/sl/LC_MESSAGES
+creating build/lib/sphinx/locale/tr
+creating build/lib/sphinx/locale/tr/LC_MESSAGES
+copying sphinx/locale/tr/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/tr/LC_MESSAGES
+copying sphinx/locale/tr/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/tr/LC_MESSAGES
+copying sphinx/locale/tr/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/tr/LC_MESSAGES
+creating build/lib/sphinx/locale/uk_UA
+creating build/lib/sphinx/locale/uk_UA/LC_MESSAGES
+copying sphinx/locale/uk_UA/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/uk_UA/LC_MESSAGES
+copying sphinx/locale/uk_UA/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/uk_UA/LC_MESSAGES
+copying sphinx/locale/uk_UA/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/uk_UA/LC_MESSAGES
+creating build/lib/sphinx/locale/zh_CN
+creating build/lib/sphinx/locale/zh_CN/LC_MESSAGES
+copying sphinx/locale/zh_CN/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/zh_CN/LC_MESSAGES
+copying sphinx/locale/zh_CN/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/zh_CN/LC_MESSAGES
+copying sphinx/locale/zh_CN/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/zh_CN/LC_MESSAGES
+creating build/lib/sphinx/locale/zh_TW
+creating build/lib/sphinx/locale/zh_TW/LC_MESSAGES
+copying sphinx/locale/zh_TW/LC_MESSAGES/sphinx.js -> build/lib/sphinx/locale/zh_TW/LC_MESSAGES
+copying sphinx/locale/zh_TW/LC_MESSAGES/sphinx.mo -> build/lib/sphinx/locale/zh_TW/LC_MESSAGES
+copying sphinx/locale/zh_TW/LC_MESSAGES/sphinx.po -> build/lib/sphinx/locale/zh_TW/LC_MESSAGES
+copying sphinx/pycode/Grammar.txt -> build/lib/sphinx/pycode
+creating build/lib/sphinx/ext/autosummary/templates
+creating build/lib/sphinx/ext/autosummary/templates/autosummary
+copying sphinx/ext/autosummary/templates/autosummary/base.rst -> build/lib/sphinx/ext/autosummary/templates/autosummary
+copying sphinx/ext/autosummary/templates/autosummary/class.rst -> build/lib/sphinx/ext/autosummary/templates/autosummary
+copying sphinx/ext/autosummary/templates/autosummary/module.rst -> build/lib/sphinx/ext/autosummary/templates/autosummary

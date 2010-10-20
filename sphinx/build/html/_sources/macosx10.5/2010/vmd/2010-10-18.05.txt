@@ -1,0 +1,11 @@
+.. index::
+    double: Paver; py2.5.4
+
+2010-10-18: Renaming ``paver`` Binary in python 2.6.6
+==============================================
+
+*   Renamed::
+
+        /Library/Frameworks/Python.framework/Version/2.6/bin/paver
+
+    to ``paver2.6`` for future other pavers for other Pythons.

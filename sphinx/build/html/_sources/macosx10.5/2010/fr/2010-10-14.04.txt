@@ -1,0 +1,18 @@
+.. index::
+    double: Paver; py2.5.4
+
+2010-10-14: Paver 1.03 in py2.5
+===============================
+
+*   Installing Paver 1.03 from::
+
+        Shared/Downloads/2010/Paver/Paver-1.0.3.tar.gz
+
+    from http://pypi.python.org/pypi/Paver, http://pypi.python.org/pypi/Paver, 
+    using::
+
+        python2.5 setup.py build 2>&1 | tee setup-build.log
+        python2.5 setup.py install 2>&1 | tee setup-install.log
+
+    :download:`//Users/Shared/Builds/2010/python2.5/Paver/Paver-1.0.3/setup-build.log` 
+    :download:`//Users/Shared/Builds/2010/python2.5/Paver/Paver-1.0.3/setup-install.log`

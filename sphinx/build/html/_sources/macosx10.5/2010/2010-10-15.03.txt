@@ -1,0 +1,13 @@
+.. index::
+    triple: py2.5.4; Sphinx; Docs
+    double; py2.5.4; Sphinx
+
+2010-10-15: Building Local Sphinx 1.0.4 Docs
+============================================
+
+*   Building the local Sphinx docs::
+
+        cd doc
+        sphinx-build . _build/html
+
+    The docs are here: http://vincentdavis.info/Shared/Builds/2010/python2.5/Sphinx/Sphinx-1.0.4/doc/_build/html/

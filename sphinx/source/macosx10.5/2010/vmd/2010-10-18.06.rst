@@ -1,0 +1,19 @@
+.. index::
+    double: Virtualenv; python 2.6.6
+
+
+2010-10-14: Installing Virtualenv 1.4.1 in python 2.6.6
+================================================
+
+*   Installing virtualenv 1.5.1 from::
+
+        Shared/Downloads/2010/Virtualenv/virtualenv-1.5.1.tar.gz
+
+    from http://pypi.python.org/pypi/virtualenv,
+    http://pypi.python.org/packages/source/v/virtualenv/virtualenv-1.5.1.tar.gz, using::
+
+        py26 setup.py build 2>&1 | tee setup-build.log
+        py26 setup.py install 2>&1 | tee setup-install.log
+
+    :download:`//Users/Shared/Builds/2010/python2.6/Virtualenv/virtualenv-1.5.1/setup-build.log`
+    :download:`//Users/Shared/Builds/2010/python2.6/Virtualenv/virtualenv-1.5.1/setup-install.log`

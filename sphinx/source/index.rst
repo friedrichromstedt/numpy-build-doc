@@ -3,20 +3,32 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
 Welcome to the Numpy Build Docs!
 ================================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    Macosx
 
-Indices and tables
+
+Indices and Tables
 ==================
 
-* The timeline: :ref:`genindex`
+* :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
 
+
+Developer's Corner
+==================
+
+.. toctree::
+    :maxdepth: 2
+
+    SphinxStyle
+    AddingAnEntry
+    Vim

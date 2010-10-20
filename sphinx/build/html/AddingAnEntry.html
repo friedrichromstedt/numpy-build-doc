@@ -1,0 +1,199 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Adding a Log Entry &mdash; Numpy Build Docs v1.5.1rc1 documentation</title>
+    <link rel="stylesheet" href="_static/nature.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.5.1rc1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="Numpy Build Docs v1.5.1rc1 documentation" href="index.html" />
+    <link rel="next" title="Vim Configuration File" href="Vim.html" />
+    <link rel="prev" title="Sphinx Coding Style (by Friedrich Romstedt)" href="SphinxStyle.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="Vim.html" title="Vim Configuration File"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="SphinxStyle.html" title="Sphinx Coding Style (by Friedrich Romstedt)"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">Numpy Build Docs v1.5.1rc1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="adding-a-log-entry">
+<span id="index-0"></span><h1>Adding a Log Entry<a class="headerlink" href="#adding-a-log-entry" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic">
+<li><p class="first">Create log entry file:</p>
+<div class="highlight-python"><pre>&lt;System&gt;/&lt;Year&gt;/&lt;YYYY&gt;-&lt;MM&gt;-&lt;DD&gt;.&lt;NN&gt;.rst</pre>
+</div>
+</li>
+<li><p class="first">With title:</p>
+<div class="highlight-python"><pre>&lt;YYYY&gt;-&lt;MM&gt;-&lt;DD&gt;: &lt;Title&gt;</pre>
+</div>
+<ul>
+<li><p class="first">When installing software, use for stand-alone software:</p>
+<div class="highlight-python"><pre>&lt;Title&gt; = &lt;Name&gt; &lt;Version&gt;</pre>
+</div>
+<p>and for Python software:</p>
+<div class="highlight-python"><pre>&lt;Title&gt; = &lt;Name&gt; &lt;Version&gt; in py&lt;x.y&gt;</pre>
+</div>
+<p>For py2.7 on Mac OS X, use either &#8220;py2.7-10.4&#8221; or &#8220;py2.7-10.5&#8221;.
+Capitalise <tt class="docutils literal"><span class="pre">&lt;Name&gt;</span></tt> if the package&#8217;s name is not natively
+un-capitalised.</p>
+</li>
+<li><p class="first">When making a log entry, use a short description.  Like &#8220;numpy
+2.0.0.dev Test py2.5&#8221;</p>
+</li>
+</ul>
+</li>
+<li><p class="first">And index for Python installs e.g.:</p>
+<div class="highlight-python"><pre>.. index::
+    single: Python 2.5.4</pre>
+</div>
+<p>and:</p>
+<div class="highlight-python"><pre>.. index::
+    single: gfortran</pre>
+</div>
+<p>for non-Python installs. For Python packages use e.g.:</p>
+<div class="highlight-python"><pre>.. index::
+    double: Sphinx; py2.5.4</pre>
+</div>
+<p>. For Tests, use e.g.:</p>
+<div class="highlight-python"><pre>.. index::
+    triple: Test; Cython; py2.5.4</pre>
+</div>
+<p>. Place the index directive above the title.</p>
+</li>
+<li><p class="first">Add the action to the <em>timeline</em> in:</p>
+<div class="highlight-python"><pre>&lt;System&gt;/&lt;Year&gt;.rst</pre>
+</div>
+<p>.  If there&#8217;s a new timeline to be created, use in the &lt;Year&gt;.rst file:</p>
+<div class="highlight-python"><pre>&lt;Title&gt; = Timeline &lt;System&gt; &lt;Year&gt;</pre>
+</div>
+<p>and open the timeline as a <tt class="docutils literal"><span class="pre">..</span> <span class="pre">toctree::</span></tt> directive with
+<tt class="docutils literal"><span class="pre">:maxdepth:</span> <span class="pre">2</span></tt>.  Thank you.</p>
+</li>
+<li><p class="first">Add the steps of the action in a bullet list.  Tell:</p>
+<ul class="simple">
+<li>From where in Shared/ you took the installer,</li>
+<li>From where the installer came,</li>
+<li>What you issued,</li>
+<li>Link to the log files as downloads (<tt class="docutils literal"><span class="pre">:download:`&lt;file&gt;`</span></tt>).  Seems
+you have to use <tt class="docutils literal"><span class="pre">//Users/</span></tt> with double slash at the beginning
+(Sphinx bug?).</li>
+</ul>
+<p>You do <em>not</em> need to tell:</p>
+<ul class="simple">
+<li>Where you did the build,</li>
+<li>Where the log files are located.</li>
+</ul>
+<p>The build dir is clear from nomenclature and year, and the log files are
+linked in anyway.</p>
+</li>
+<li><p class="first">If necessary, add the action to the &#8220;Need Revision&#8221; section of your
+system&#8217;s SystemSetup.rst.  Mark the spot with <tt class="docutils literal"><span class="pre">**Needs</span> <span class="pre">Revision**</span></tt>.</p>
+</li>
+<li><p class="first">Add the action to all sections of your SystemSetup where appropriate.</p>
+</li>
+</ol>
+<p>Finally it looks like this:</p>
+<div class="highlight-python"><pre>.. index::
+    single: gfortran
+
+2010-10-14: gfortran 4.2.3
+==========================
+
+*   Installing gfortran 4.2.3 from::
+
+        Shared/Downloads/2010/gfortran/gfortran-4.2.3.dmg
+
+    from http://r.research.att.com/tools/ as recommended by the numpy
+    build instructions, the file is more precisely
+    http://r.research.att.com/gfortran-4.2.3.dmg.
+
+    Binary distribution package.</pre>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="SphinxStyle.html"
+                        title="previous chapter">Sphinx Coding Style (by Friedrich Romstedt)</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="Vim.html"
+                        title="next chapter">Vim Configuration File</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/AddingAnEntry.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="Vim.html" title="Vim Configuration File"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="SphinxStyle.html" title="Sphinx Coding Style (by Friedrich Romstedt)"
+             >previous</a> |</li>
+        <li><a href="index.html">Numpy Build Docs v1.5.1rc1 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2010, Friedrich Romstedt, Vincent Davis.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.0.4.
+    </div>
+  </body>
+</html>

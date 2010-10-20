@@ -1,0 +1,21 @@
+.. index::
+    double: Paver; python 2.6.6
+
+2010-10-18: Paver 1.03 in python 2.6.6
+======================================
+
+*   Paver 1.03 from source and file::
+
+        File:: Shared/Downloads/2010/Paver/Paver-1.0.3.tar.gz
+
+        From source at: http://pypi.python.org/pypi/Paver, 
+    
+*   Install::
+
+        py26 setup.py build 2>&1 | tee setup-build.log
+        py26 setup.py install 2>&1 | tee setup-install.log
+
+    :download:`//Users/Shared/Builds/2010/python2.6/Paver/Paver-1.0.3/setup-build.log`
+    
+    :download:`//Users/Shared/Builds/2010/python2.6/Paver/Paver-1.0.3/setup-install.log`
+s

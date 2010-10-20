@@ -1,0 +1,19 @@
+.. index::
+    double: python 2.6.6; bdist_mpkg
+
+
+2010-10-18: bdist_mpkg 0.4.4 in python 2.6.6
+=====================================
+
+*   Installing bdist_mpkg 0.4.4 from::
+
+        Shared/Downloads/2010/bdist_mpkg/bdist_mpkg-0.4.4.tar.gz
+
+    from http://pypi.python.org/pypi/bdist_mpkg/,
+    http://pypi.python.org/packages/source/b/bdist_mpkg/bdist_mpkg-0.4.4.tar.gz, using::
+        
+        py26 setup.py build 2>&1 | tee setup-build.log
+        py26 setup.py install 2>&1 | tee setup-install.log
+
+    :download:`//Users/Shared/Builds/2010/python2.6/bdist_mpkg/bdist_mpkg-0.4.4/setup-build.log`
+    :download:`//Users/Shared/Builds/2010/python2.6/bdist_mpkg/bdist_mpkg-0.4.4/setup-install.log`

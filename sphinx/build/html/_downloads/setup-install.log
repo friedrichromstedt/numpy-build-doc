@@ -1,0 +1,110 @@
+running install
+running build
+running build_py
+running build_scripts
+running install_lib
+creating /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/__init__.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/bzr.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+creating /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/cog
+copying build/lib/paver/cog/__init__.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/cog
+copying build/lib/paver/cog/cogapp.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/cog
+copying build/lib/paver/cog/whiteutils.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/cog
+copying build/lib/paver/command.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/defaults.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+creating /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+creating /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_images
+copying build/lib/paver/docs/_images/paver_banner.jpg -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_images
+creating /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/articles.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/bzr.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/changelog.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/cmdline.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/credits.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/doctools.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/features.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/files.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/foreword.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/getting_started.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/index.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/misctasks.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/pavement.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/paverstdlib.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/setuptools.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/ssh.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/svn.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/tips.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/virtualenv.txt -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_sources
+creating /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/basic.css -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/default.css -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/doctools.js -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/file.png -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/jquery.js -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/minus.png -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/paver_banner.jpg -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/plus.png -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/pygments.css -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/searchtools.js -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs/_static
+copying build/lib/paver/docs/articles.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/bzr.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/changelog.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/cmdline.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/credits.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/doctools.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/features.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/files.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/foreword.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/genindex.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/getting_started.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/index.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/misctasks.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/modindex.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/objects.inv -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/pavement.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/paverstdlib.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/search.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/searchindex.js -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/setuptools.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/ssh.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/svn.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/tips.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/docs/virtualenv.html -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/docs
+copying build/lib/paver/doctools.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/easy.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/misctasks.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/options.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/path.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/path25.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/release.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/runtime.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/setuputils.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/ssh.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/svn.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/tasks.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+copying build/lib/paver/virtual.py -> /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/__init__.py to __init__.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/bzr.py to bzr.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/cog/__init__.py to __init__.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/cog/cogapp.py to cogapp.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/cog/whiteutils.py to whiteutils.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/command.py to command.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/defaults.py to defaults.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/doctools.py to doctools.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/easy.py to easy.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/misctasks.py to misctasks.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/options.py to options.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/path.py to path.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/path25.py to path25.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/release.py to release.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/runtime.py to runtime.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/setuputils.py to setuputils.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/ssh.py to ssh.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/svn.py to svn.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/tasks.py to tasks.pyc
+byte-compiling /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/paver/virtual.py to virtual.pyc
+running install_scripts
+copying build/scripts-2.5/paver -> /Library/Frameworks/Python.framework/Versions/2.5/bin
+changing mode of /Library/Frameworks/Python.framework/Versions/2.5/bin/paver to 755
+running install_egg_info
+Writing /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/Paver-1.0.3-py2.5.egg-info
