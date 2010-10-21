@@ -1,6 +1,13 @@
 .. index::
     single: Python 2.5.4
 
+.. module:: macosx10-5.pythonsetup.Python2-5-4
+.. module:: macosx10-5.pythonsetup.ABCD
+
+.. module:: macosx10-5.python2-5-4_software.Python2-5-4
+
+.. module:: macosx10-5.timeline.2010.2010-10-14_Python2-5-4
+
 2010-10-14: Python 2.5.4
 ========================
 
