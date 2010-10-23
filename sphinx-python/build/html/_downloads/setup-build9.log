@@ -1,0 +1,9 @@
+running build
+running build_py
+creating build
+creating build/lib
+copying virtualenv.py -> build/lib
+creating build/lib/virtualenv_support
+copying virtualenv_support/__init__.py -> build/lib/virtualenv_support
+copying virtualenv_support/distribute-0.6.14.tar.gz -> build/lib/virtualenv_support
+copying virtualenv_support/pip-0.8.1.tar.gz -> build/lib/virtualenv_support

@@ -8,6 +8,7 @@ I found this .vimrc extremely useful::
     set tabstop=4
     set shiftwidth=4
     set expandtab
+    set ruler
 
 ``expandtab`` replaces tabs by spaces.  If you need to change this later
 use::

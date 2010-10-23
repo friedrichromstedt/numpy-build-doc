@@ -1,0 +1,43 @@
+running install
+running bdist_egg
+running egg_info
+writing virtualenv.egg-info/PKG-INFO
+writing top-level names to virtualenv.egg-info/top_level.txt
+writing dependency_links to virtualenv.egg-info/dependency_links.txt
+writing entry points to virtualenv.egg-info/entry_points.txt
+reading manifest file 'virtualenv.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.*' found under directory 'docs/_templates'
+writing manifest file 'virtualenv.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.3-i386/egg
+running install_lib
+running build_py
+creating build/bdist.macosx-10.3-i386
+creating build/bdist.macosx-10.3-i386/egg
+copying build/lib/virtualenv.py -> build/bdist.macosx-10.3-i386/egg
+creating build/bdist.macosx-10.3-i386/egg/virtualenv_support
+copying build/lib/virtualenv_support/__init__.py -> build/bdist.macosx-10.3-i386/egg/virtualenv_support
+copying build/lib/virtualenv_support/distribute-0.6.14.tar.gz -> build/bdist.macosx-10.3-i386/egg/virtualenv_support
+copying build/lib/virtualenv_support/pip-0.8.1.tar.gz -> build/bdist.macosx-10.3-i386/egg/virtualenv_support
+copying build/lib/virtualenv_support/setuptools-0.6c11-py2.5.egg -> build/bdist.macosx-10.3-i386/egg/virtualenv_support
+byte-compiling build/bdist.macosx-10.3-i386/egg/virtualenv.py to virtualenv.pyc
+byte-compiling build/bdist.macosx-10.3-i386/egg/virtualenv_support/__init__.py to __init__.pyc
+creating build/bdist.macosx-10.3-i386/egg/EGG-INFO
+copying virtualenv.egg-info/PKG-INFO -> build/bdist.macosx-10.3-i386/egg/EGG-INFO
+copying virtualenv.egg-info/SOURCES.txt -> build/bdist.macosx-10.3-i386/egg/EGG-INFO
+copying virtualenv.egg-info/dependency_links.txt -> build/bdist.macosx-10.3-i386/egg/EGG-INFO
+copying virtualenv.egg-info/entry_points.txt -> build/bdist.macosx-10.3-i386/egg/EGG-INFO
+copying virtualenv.egg-info/not-zip-safe -> build/bdist.macosx-10.3-i386/egg/EGG-INFO
+copying virtualenv.egg-info/top_level.txt -> build/bdist.macosx-10.3-i386/egg/EGG-INFO
+creating dist
+creating 'dist/virtualenv-1.5.1-py2.5.egg' and adding 'build/bdist.macosx-10.3-i386/egg' to it
+removing 'build/bdist.macosx-10.3-i386/egg' (and everything under it)
+Processing virtualenv-1.5.1-py2.5.egg
+creating /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/virtualenv-1.5.1-py2.5.egg
+Extracting virtualenv-1.5.1-py2.5.egg to /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages
+Adding virtualenv 1.5.1 to easy-install.pth file
+Installing virtualenv script to /Library/Frameworks/Python.framework/Versions/2.5/bin
+
+Installed /Library/Frameworks/Python.framework/Versions/2.5/lib/python2.5/site-packages/virtualenv-1.5.1-py2.5.egg
+Processing dependencies for virtualenv==1.5.1
+Finished processing dependencies for virtualenv==1.5.1

@@ -1,0 +1,67 @@
+test -z "/usr/local/bin" || ./install-sh -c -d "/usr/local/bin"
+ /usr/bin/install -c libpng14-config '/usr/local/bin'
+test -z "/usr/local/lib" || ./install-sh -c -d "/usr/local/lib"
+ /bin/sh ./libtool   --mode=install /usr/bin/install -c   libpng14.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c .libs/libpng14.14.dylib /usr/local/lib/libpng14.14.dylib
+libtool: install: (cd /usr/local/lib && { ln -s -f libpng14.14.dylib libpng14.dylib || { rm -f libpng14.dylib && ln -s libpng14.14.dylib libpng14.dylib; }; })
+libtool: install: /usr/bin/install -c .libs/libpng14.lai /usr/local/lib/libpng14.la
+libtool: install: /usr/bin/install -c .libs/libpng14.a /usr/local/lib/libpng14.a
+libtool: install: chmod 644 /usr/local/lib/libpng14.a
+libtool: install: ranlib /usr/local/lib/libpng14.a
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `DYLD_LIBRARY_PATH' environment variable
+     during execution
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make  install-exec-hook
+cd /usr/local/bin; rm -f libpng-config
+cd /usr/local/bin; ln -s libpng14-config libpng-config
++ cd /usr/local/lib
++ for ext in a la so so.14.4 sl dylib dll.a
++ rm -f libpng.a
++ test -f libpng14.a
++ ln -s libpng14.a libpng.a
++ for ext in a la so so.14.4 sl dylib dll.a
++ rm -f libpng.la
++ test -f libpng14.la
++ ln -s libpng14.la libpng.la
++ for ext in a la so so.14.4 sl dylib dll.a
++ rm -f libpng.so
++ test -f libpng14.so
++ for ext in a la so so.14.4 sl dylib dll.a
++ rm -f libpng.so.14.4
++ test -f libpng14.so.14.4
++ for ext in a la so so.14.4 sl dylib dll.a
++ rm -f libpng.sl
++ test -f libpng14.sl
++ for ext in a la so so.14.4 sl dylib dll.a
++ rm -f libpng.dylib
++ test -f libpng14.dylib
++ ln -s libpng14.dylib libpng.dylib
++ for ext in a la so so.14.4 sl dylib dll.a
++ rm -f libpng.dll.a
++ test -f libpng14.dll.a
+test -z "/usr/local/share/man/man3" || ./install-sh -c -d "/usr/local/share/man/man3"
+ /usr/bin/install -c -m 644 libpng.3 libpngpf.3 '/usr/local/share/man/man3'
+test -z "/usr/local/share/man/man5" || ./install-sh -c -d "/usr/local/share/man/man5"
+ /usr/bin/install -c -m 644 png.5 '/usr/local/share/man/man5'
+test -z "/usr/local/lib/pkgconfig" || ./install-sh -c -d "/usr/local/lib/pkgconfig"
+ /usr/bin/install -c -m 644 libpng14.pc '/usr/local/lib/pkgconfig'
+test -z "/usr/local/include/libpng14" || ./install-sh -c -d "/usr/local/include/libpng14"
+ /usr/bin/install -c -m 644 png.h pngconf.h '/usr/local/include/libpng14'
+make  install-data-hook
+cd /usr/local/include; rm -f png.h pngconf.h
+cd /usr/local/include; ln -s libpng14/png.h png.h
+cd /usr/local/include; ln -s libpng14/pngconf.h \
+		pngconf.h
+cd /usr/local/lib/pkgconfig; rm -f libpng.pc
+cd /usr/local/lib/pkgconfig; ln -s libpng14.pc libpng.pc

@@ -1,0 +1,88 @@
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/paver
+copying paver/__init__.py -> build/lib/paver
+copying paver/bzr.py -> build/lib/paver
+copying paver/command.py -> build/lib/paver
+copying paver/defaults.py -> build/lib/paver
+copying paver/doctools.py -> build/lib/paver
+copying paver/easy.py -> build/lib/paver
+copying paver/misctasks.py -> build/lib/paver
+copying paver/options.py -> build/lib/paver
+copying paver/path.py -> build/lib/paver
+copying paver/path25.py -> build/lib/paver
+copying paver/release.py -> build/lib/paver
+copying paver/runtime.py -> build/lib/paver
+copying paver/setuputils.py -> build/lib/paver
+copying paver/ssh.py -> build/lib/paver
+copying paver/svn.py -> build/lib/paver
+copying paver/tasks.py -> build/lib/paver
+copying paver/virtual.py -> build/lib/paver
+creating build/lib/paver/cog
+copying paver/cog/__init__.py -> build/lib/paver/cog
+copying paver/cog/cogapp.py -> build/lib/paver/cog
+copying paver/cog/whiteutils.py -> build/lib/paver/cog
+creating build/lib/paver/docs
+copying paver/docs/articles.html -> build/lib/paver/docs
+copying paver/docs/bzr.html -> build/lib/paver/docs
+copying paver/docs/changelog.html -> build/lib/paver/docs
+copying paver/docs/cmdline.html -> build/lib/paver/docs
+copying paver/docs/credits.html -> build/lib/paver/docs
+copying paver/docs/doctools.html -> build/lib/paver/docs
+copying paver/docs/features.html -> build/lib/paver/docs
+copying paver/docs/files.html -> build/lib/paver/docs
+copying paver/docs/foreword.html -> build/lib/paver/docs
+copying paver/docs/genindex.html -> build/lib/paver/docs
+copying paver/docs/getting_started.html -> build/lib/paver/docs
+copying paver/docs/index.html -> build/lib/paver/docs
+copying paver/docs/misctasks.html -> build/lib/paver/docs
+copying paver/docs/modindex.html -> build/lib/paver/docs
+copying paver/docs/objects.inv -> build/lib/paver/docs
+copying paver/docs/pavement.html -> build/lib/paver/docs
+copying paver/docs/paverstdlib.html -> build/lib/paver/docs
+copying paver/docs/search.html -> build/lib/paver/docs
+copying paver/docs/searchindex.js -> build/lib/paver/docs
+copying paver/docs/setuptools.html -> build/lib/paver/docs
+copying paver/docs/ssh.html -> build/lib/paver/docs
+copying paver/docs/svn.html -> build/lib/paver/docs
+copying paver/docs/tips.html -> build/lib/paver/docs
+copying paver/docs/virtualenv.html -> build/lib/paver/docs
+creating build/lib/paver/docs/_images
+copying paver/docs/_images/paver_banner.jpg -> build/lib/paver/docs/_images
+creating build/lib/paver/docs/_sources
+copying paver/docs/_sources/articles.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/bzr.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/changelog.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/cmdline.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/credits.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/doctools.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/features.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/files.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/foreword.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/getting_started.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/index.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/misctasks.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/pavement.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/paverstdlib.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/setuptools.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/ssh.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/svn.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/tips.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/virtualenv.txt -> build/lib/paver/docs/_sources
+creating build/lib/paver/docs/_static
+copying paver/docs/_static/basic.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/default.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/doctools.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/file.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/jquery.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/minus.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/paver_banner.jpg -> build/lib/paver/docs/_static
+copying paver/docs/_static/plus.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/pygments.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/searchtools.js -> build/lib/paver/docs/_static
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting distutils_scripts/paver -> build/scripts-2.7
+changing mode of build/scripts-2.7/paver from 644 to 755

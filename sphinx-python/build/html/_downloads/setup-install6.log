@@ -1,0 +1,48 @@
+running install
+running bdist_egg
+running egg_info
+writing bdist_mpkg.egg-info/PKG-INFO
+writing top-level names to bdist_mpkg.egg-info/top_level.txt
+writing dependency_links to bdist_mpkg.egg-info/dependency_links.txt
+writing entry points to bdist_mpkg.egg-info/entry_points.txt
+reading manifest file 'bdist_mpkg.egg-info/SOURCES.txt'
+writing manifest file 'bdist_mpkg.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.5-fat3/egg
+running install_lib
+running build_py
+creating build/bdist.macosx-10.5-fat3
+creating build/bdist.macosx-10.5-fat3/egg
+creating build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+copying build/lib/bdist_mpkg/__init__.py -> build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+copying build/lib/bdist_mpkg/cmd_bdist_mpkg.py -> build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+copying build/lib/bdist_mpkg/pkg.py -> build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+copying build/lib/bdist_mpkg/plists.py -> build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+copying build/lib/bdist_mpkg/script_bdist_mpkg.py -> build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+copying build/lib/bdist_mpkg/templates.py -> build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+copying build/lib/bdist_mpkg/tools.py -> build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+copying build/lib/bdist_mpkg/util.py -> build/bdist.macosx-10.5-fat3/egg/bdist_mpkg
+byte-compiling build/bdist.macosx-10.5-fat3/egg/bdist_mpkg/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/bdist_mpkg/cmd_bdist_mpkg.py to cmd_bdist_mpkg.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/bdist_mpkg/pkg.py to pkg.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/bdist_mpkg/plists.py to plists.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/bdist_mpkg/script_bdist_mpkg.py to script_bdist_mpkg.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/bdist_mpkg/templates.py to templates.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/bdist_mpkg/tools.py to tools.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/bdist_mpkg/util.py to util.pyc
+creating build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying bdist_mpkg.egg-info/PKG-INFO -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying bdist_mpkg.egg-info/SOURCES.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying bdist_mpkg.egg-info/dependency_links.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying bdist_mpkg.egg-info/entry_points.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying bdist_mpkg.egg-info/top_level.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying bdist_mpkg.egg-info/zip-safe -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+creating 'dist/bdist_mpkg-0.4.4-py2.7.egg' and adding 'build/bdist.macosx-10.5-fat3/egg' to it
+removing 'build/bdist.macosx-10.5-fat3/egg' (and everything under it)
+Processing bdist_mpkg-0.4.4-py2.7.egg
+Copying bdist_mpkg-0.4.4-py2.7.egg to /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
+Adding bdist-mpkg 0.4.4 to easy-install.pth file
+Installing bdist_mpkg script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+
+Installed /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/bdist_mpkg-0.4.4-py2.7.egg
+Processing dependencies for bdist-mpkg==0.4.4
+Finished processing dependencies for bdist-mpkg==0.4.4

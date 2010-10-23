@@ -1,0 +1,488 @@
+running install
+running bdist_egg
+running egg_info
+writing requirements to Sphinx.egg-info/requires.txt
+writing Sphinx.egg-info/PKG-INFO
+writing top-level names to Sphinx.egg-info/top_level.txt
+writing dependency_links to Sphinx.egg-info/dependency_links.txt
+writing entry points to Sphinx.egg-info/entry_points.txt
+reading manifest file 'Sphinx.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'Sphinx.egg-info/SOURCES.txt'
+installing library code to build/bdist.macosx-10.5-fat3/egg
+running install_lib
+running build_py
+creating build/bdist.macosx-10.5-fat3
+creating build/bdist.macosx-10.5-fat3/egg
+creating build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/addnodes.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/application.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/changes.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/devhelp.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/epub.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/html.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/htmlhelp.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/latex.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/linkcheck.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/manpage.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/qthelp.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/builders/text.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/builders
+copying build/lib/sphinx/cmdline.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/config.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/directives
+copying build/lib/sphinx/directives/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/directives
+copying build/lib/sphinx/directives/code.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/directives
+copying build/lib/sphinx/directives/other.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/directives
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/domains
+copying build/lib/sphinx/domains/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/domains
+copying build/lib/sphinx/domains/c.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/domains
+copying build/lib/sphinx/domains/cpp.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/domains
+copying build/lib/sphinx/domains/javascript.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/domains
+copying build/lib/sphinx/domains/python.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/domains
+copying build/lib/sphinx/domains/rst.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/domains
+copying build/lib/sphinx/domains/std.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/domains
+copying build/lib/sphinx/environment.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/errors.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/autodoc.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary
+copying build/lib/sphinx/ext/autosummary/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary
+copying build/lib/sphinx/ext/autosummary/generate.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary/templates
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary/templates/autosummary
+copying build/lib/sphinx/ext/autosummary/templates/autosummary/base.rst -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary/templates/autosummary
+copying build/lib/sphinx/ext/autosummary/templates/autosummary/class.rst -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary/templates/autosummary
+copying build/lib/sphinx/ext/autosummary/templates/autosummary/module.rst -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary/templates/autosummary
+copying build/lib/sphinx/ext/coverage.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/doctest.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/extlinks.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/graphviz.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/ifconfig.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/inheritance_diagram.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/intersphinx.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/jsmath.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/mathbase.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/oldcmarkup.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/pngmath.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/refcounting.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/todo.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/ext/viewcode.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/ext
+copying build/lib/sphinx/highlighting.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/jinja2glue.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale
+copying build/lib/sphinx/locale/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/bn
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/bn/LC_MESSAGES
+copying build/lib/sphinx/locale/bn/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/bn/LC_MESSAGES
+copying build/lib/sphinx/locale/bn/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/bn/LC_MESSAGES
+copying build/lib/sphinx/locale/bn/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/bn/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ca
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ca/LC_MESSAGES
+copying build/lib/sphinx/locale/ca/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ca/LC_MESSAGES
+copying build/lib/sphinx/locale/ca/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ca/LC_MESSAGES
+copying build/lib/sphinx/locale/ca/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ca/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/cs
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/cs/LC_MESSAGES
+copying build/lib/sphinx/locale/cs/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/cs/LC_MESSAGES
+copying build/lib/sphinx/locale/cs/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/cs/LC_MESSAGES
+copying build/lib/sphinx/locale/cs/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/cs/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/da
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/da/LC_MESSAGES
+copying build/lib/sphinx/locale/da/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/da/LC_MESSAGES
+copying build/lib/sphinx/locale/da/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/da/LC_MESSAGES
+copying build/lib/sphinx/locale/da/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/da/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/de
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/de/LC_MESSAGES
+copying build/lib/sphinx/locale/de/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/de/LC_MESSAGES
+copying build/lib/sphinx/locale/de/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/de/LC_MESSAGES
+copying build/lib/sphinx/locale/de/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/de/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/es
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/es/LC_MESSAGES
+copying build/lib/sphinx/locale/es/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/es/LC_MESSAGES
+copying build/lib/sphinx/locale/es/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/es/LC_MESSAGES
+copying build/lib/sphinx/locale/es/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/es/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fi
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fi/LC_MESSAGES
+copying build/lib/sphinx/locale/fi/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fi/LC_MESSAGES
+copying build/lib/sphinx/locale/fi/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fi/LC_MESSAGES
+copying build/lib/sphinx/locale/fi/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fi/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fr
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fr/LC_MESSAGES
+copying build/lib/sphinx/locale/fr/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fr/LC_MESSAGES
+copying build/lib/sphinx/locale/fr/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fr/LC_MESSAGES
+copying build/lib/sphinx/locale/fr/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/fr/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/hr
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/hr/LC_MESSAGES
+copying build/lib/sphinx/locale/hr/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/hr/LC_MESSAGES
+copying build/lib/sphinx/locale/hr/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/hr/LC_MESSAGES
+copying build/lib/sphinx/locale/hr/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/hr/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/it
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/it/LC_MESSAGES
+copying build/lib/sphinx/locale/it/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/it/LC_MESSAGES
+copying build/lib/sphinx/locale/it/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/it/LC_MESSAGES
+copying build/lib/sphinx/locale/it/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/it/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ja
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ja/LC_MESSAGES
+copying build/lib/sphinx/locale/ja/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ja/LC_MESSAGES
+copying build/lib/sphinx/locale/ja/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ja/LC_MESSAGES
+copying build/lib/sphinx/locale/ja/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ja/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/lt
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/lt/LC_MESSAGES
+copying build/lib/sphinx/locale/lt/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/lt/LC_MESSAGES
+copying build/lib/sphinx/locale/lt/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/lt/LC_MESSAGES
+copying build/lib/sphinx/locale/lt/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/lt/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/nl
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/nl/LC_MESSAGES
+copying build/lib/sphinx/locale/nl/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/nl/LC_MESSAGES
+copying build/lib/sphinx/locale/nl/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/nl/LC_MESSAGES
+copying build/lib/sphinx/locale/nl/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/nl/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pl
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pl/LC_MESSAGES
+copying build/lib/sphinx/locale/pl/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pl/LC_MESSAGES
+copying build/lib/sphinx/locale/pl/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pl/LC_MESSAGES
+copying build/lib/sphinx/locale/pl/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pl/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pt_BR
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pt_BR/LC_MESSAGES
+copying build/lib/sphinx/locale/pt_BR/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pt_BR/LC_MESSAGES
+copying build/lib/sphinx/locale/pt_BR/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pt_BR/LC_MESSAGES
+copying build/lib/sphinx/locale/pt_BR/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/pt_BR/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ru
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ru/LC_MESSAGES
+copying build/lib/sphinx/locale/ru/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ru/LC_MESSAGES
+copying build/lib/sphinx/locale/ru/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ru/LC_MESSAGES
+copying build/lib/sphinx/locale/ru/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/ru/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/sl
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/sl/LC_MESSAGES
+copying build/lib/sphinx/locale/sl/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/sl/LC_MESSAGES
+copying build/lib/sphinx/locale/sl/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/sl/LC_MESSAGES
+copying build/lib/sphinx/locale/sl/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/sl/LC_MESSAGES
+copying build/lib/sphinx/locale/sphinx.pot -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/tr
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/tr/LC_MESSAGES
+copying build/lib/sphinx/locale/tr/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/tr/LC_MESSAGES
+copying build/lib/sphinx/locale/tr/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/tr/LC_MESSAGES
+copying build/lib/sphinx/locale/tr/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/tr/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/uk_UA
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/uk_UA/LC_MESSAGES
+copying build/lib/sphinx/locale/uk_UA/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/uk_UA/LC_MESSAGES
+copying build/lib/sphinx/locale/uk_UA/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/uk_UA/LC_MESSAGES
+copying build/lib/sphinx/locale/uk_UA/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/uk_UA/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_CN
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_CN/LC_MESSAGES
+copying build/lib/sphinx/locale/zh_CN/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_CN/LC_MESSAGES
+copying build/lib/sphinx/locale/zh_CN/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_CN/LC_MESSAGES
+copying build/lib/sphinx/locale/zh_CN/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_CN/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_TW
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_TW/LC_MESSAGES
+copying build/lib/sphinx/locale/zh_TW/LC_MESSAGES/sphinx.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_TW/LC_MESSAGES
+copying build/lib/sphinx/locale/zh_TW/LC_MESSAGES/sphinx.mo -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_TW/LC_MESSAGES
+copying build/lib/sphinx/locale/zh_TW/LC_MESSAGES/sphinx.po -> build/bdist.macosx-10.5-fat3/egg/sphinx/locale/zh_TW/LC_MESSAGES
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/pycode
+copying build/lib/sphinx/pycode/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode
+copying build/lib/sphinx/pycode/Grammar.txt -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode
+copying build/lib/sphinx/pycode/nodes.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/pycode/pgen2/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/pycode/pgen2/driver.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/pycode/pgen2/grammar.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/pycode/pgen2/literals.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/pycode/pgen2/parse.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/pycode/pgen2/pgen.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/pycode/pgen2/token.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/pycode/pgen2/tokenize.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2
+copying build/lib/sphinx/quickstart.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/roles.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/search.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+copying build/lib/sphinx/setup_command.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/texinputs
+copying build/lib/sphinx/texinputs/fncychap.sty -> build/bdist.macosx-10.5-fat3/egg/sphinx/texinputs
+copying build/lib/sphinx/texinputs/Makefile -> build/bdist.macosx-10.5-fat3/egg/sphinx/texinputs
+copying build/lib/sphinx/texinputs/python.ist -> build/bdist.macosx-10.5-fat3/egg/sphinx/texinputs
+copying build/lib/sphinx/texinputs/sphinx.sty -> build/bdist.macosx-10.5-fat3/egg/sphinx/texinputs
+copying build/lib/sphinx/texinputs/sphinxhowto.cls -> build/bdist.macosx-10.5-fat3/egg/sphinx/texinputs
+copying build/lib/sphinx/texinputs/sphinxmanual.cls -> build/bdist.macosx-10.5-fat3/egg/sphinx/texinputs
+copying build/lib/sphinx/texinputs/tabulary.sty -> build/bdist.macosx-10.5-fat3/egg/sphinx/texinputs
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/agogo
+copying build/lib/sphinx/themes/agogo/layout.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/agogo
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/agogo/static
+copying build/lib/sphinx/themes/agogo/static/agogo.css_t -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/agogo/static
+copying build/lib/sphinx/themes/agogo/static/bgfooter.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/agogo/static
+copying build/lib/sphinx/themes/agogo/static/bgtop.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/agogo/static
+copying build/lib/sphinx/themes/agogo/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/agogo
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/changes
+copying build/lib/sphinx/themes/basic/changes/frameset.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/changes
+copying build/lib/sphinx/themes/basic/changes/rstsource.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/changes
+copying build/lib/sphinx/themes/basic/changes/versionchanges.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/changes
+copying build/lib/sphinx/themes/basic/defindex.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/domainindex.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/genindex-single.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/genindex-split.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/genindex.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/globaltoc.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/layout.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/localtoc.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/opensearch.xml -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/page.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/relations.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/search.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/searchbox.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+copying build/lib/sphinx/themes/basic/sourcelink.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/static/basic.css -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/static/doctools.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/static/file.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/static/jquery.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/static/minus.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/static/plus.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/static/searchtools.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/static/underscore.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic/static
+copying build/lib/sphinx/themes/basic/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/basic
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/default
+copying build/lib/sphinx/themes/default/layout.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/default
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/default/static
+copying build/lib/sphinx/themes/default/static/default.css_t -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/default/static
+copying build/lib/sphinx/themes/default/static/sidebar.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/default/static
+copying build/lib/sphinx/themes/default/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/default
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/epub
+copying build/lib/sphinx/themes/epub/layout.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/epub
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/epub/static
+copying build/lib/sphinx/themes/epub/static/epub.css -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/epub/static
+copying build/lib/sphinx/themes/epub/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/epub
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku
+copying build/lib/sphinx/themes/haiku/layout.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku/static
+copying build/lib/sphinx/themes/haiku/static/alert_info_32.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku/static
+copying build/lib/sphinx/themes/haiku/static/alert_warning_32.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku/static
+copying build/lib/sphinx/themes/haiku/static/bg-page.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku/static
+copying build/lib/sphinx/themes/haiku/static/bullet_orange.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku/static
+copying build/lib/sphinx/themes/haiku/static/haiku.css_t -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku/static
+copying build/lib/sphinx/themes/haiku/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/haiku
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/nature
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/nature/static
+copying build/lib/sphinx/themes/nature/static/nature.css_t -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/nature/static
+copying build/lib/sphinx/themes/nature/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/nature
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/artwork
+copying build/lib/sphinx/themes/scrolls/artwork/logo.svg -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/artwork
+copying build/lib/sphinx/themes/scrolls/layout.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/darkmetal.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/headerbg.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/logo.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/metal.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/navigation.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/print.css -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/scrolls.css_t -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/theme_extras.js -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/watermark.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/static/watermark_blur.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls/static
+copying build/lib/sphinx/themes/scrolls/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/scrolls
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/sphinxdoc
+copying build/lib/sphinx/themes/sphinxdoc/layout.html -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/sphinxdoc
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/sphinxdoc/static
+copying build/lib/sphinx/themes/sphinxdoc/static/contents.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/sphinxdoc/static
+copying build/lib/sphinx/themes/sphinxdoc/static/navigation.png -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/sphinxdoc/static
+copying build/lib/sphinx/themes/sphinxdoc/static/sphinxdoc.css -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/sphinxdoc/static
+copying build/lib/sphinx/themes/sphinxdoc/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/sphinxdoc
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/traditional
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/themes/traditional/static
+copying build/lib/sphinx/themes/traditional/static/traditional.css -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/traditional/static
+copying build/lib/sphinx/themes/traditional/theme.conf -> build/bdist.macosx-10.5-fat3/egg/sphinx/themes/traditional
+copying build/lib/sphinx/theming.py -> build/bdist.macosx-10.5-fat3/egg/sphinx
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/compat.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/console.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/docfields.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/docstrings.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/inspect.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/jsdump.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/jsonimpl.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/matching.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/nodes.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/osutil.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/png.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/pycompat.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/smartypants.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/stemmer.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/tags.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+copying build/lib/sphinx/util/texescape.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/util
+creating build/bdist.macosx-10.5-fat3/egg/sphinx/writers
+copying build/lib/sphinx/writers/__init__.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/writers
+copying build/lib/sphinx/writers/html.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/writers
+copying build/lib/sphinx/writers/latex.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/writers
+copying build/lib/sphinx/writers/manpage.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/writers
+copying build/lib/sphinx/writers/text.py -> build/bdist.macosx-10.5-fat3/egg/sphinx/writers
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/addnodes.py to addnodes.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/application.py to application.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/changes.py to changes.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/devhelp.py to devhelp.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/epub.py to epub.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/html.py to html.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/htmlhelp.py to htmlhelp.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/latex.py to latex.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/linkcheck.py to linkcheck.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/manpage.py to manpage.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/qthelp.py to qthelp.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/builders/text.py to text.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/cmdline.py to cmdline.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/config.py to config.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/directives/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/directives/code.py to code.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/directives/other.py to other.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/domains/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/domains/c.py to c.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/domains/cpp.py to cpp.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/domains/javascript.py to javascript.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/domains/python.py to python.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/domains/rst.py to rst.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/domains/std.py to std.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/environment.py to environment.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/errors.py to errors.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autodoc.py to autodoc.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/autosummary/generate.py to generate.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/coverage.py to coverage.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/doctest.py to doctest.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/extlinks.py to extlinks.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/graphviz.py to graphviz.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/ifconfig.py to ifconfig.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/inheritance_diagram.py to inheritance_diagram.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/intersphinx.py to intersphinx.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/jsmath.py to jsmath.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/mathbase.py to mathbase.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/oldcmarkup.py to oldcmarkup.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/pngmath.py to pngmath.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/refcounting.py to refcounting.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/todo.py to todo.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/ext/viewcode.py to viewcode.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/highlighting.py to highlighting.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/jinja2glue.py to jinja2glue.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/locale/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/nodes.py to nodes.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2/driver.py to driver.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2/grammar.py to grammar.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2/literals.py to literals.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2/parse.py to parse.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2/pgen.py to pgen.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2/token.py to token.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/pycode/pgen2/tokenize.py to tokenize.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/quickstart.py to quickstart.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/roles.py to roles.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/search.py to search.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/setup_command.py to setup_command.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/theming.py to theming.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/compat.py to compat.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/console.py to console.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/docfields.py to docfields.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/docstrings.py to docstrings.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/inspect.py to inspect.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/jsdump.py to jsdump.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/jsonimpl.py to jsonimpl.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/matching.py to matching.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/nodes.py to nodes.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/osutil.py to osutil.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/png.py to png.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/pycompat.py to pycompat.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/smartypants.py to smartypants.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/stemmer.py to stemmer.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/tags.py to tags.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/util/texescape.py to texescape.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/writers/__init__.py to __init__.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/writers/html.py to html.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/writers/latex.py to latex.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/writers/manpage.py to manpage.pyc
+byte-compiling build/bdist.macosx-10.5-fat3/egg/sphinx/writers/text.py to text.pyc
+creating build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying Sphinx.egg-info/PKG-INFO -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying Sphinx.egg-info/SOURCES.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying Sphinx.egg-info/dependency_links.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying Sphinx.egg-info/entry_points.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying Sphinx.egg-info/not-zip-safe -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying Sphinx.egg-info/requires.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+copying Sphinx.egg-info/top_level.txt -> build/bdist.macosx-10.5-fat3/egg/EGG-INFO
+creating 'dist/Sphinx-1.0.4-py2.7.egg' and adding 'build/bdist.macosx-10.5-fat3/egg' to it
+removing 'build/bdist.macosx-10.5-fat3/egg' (and everything under it)
+Processing Sphinx-1.0.4-py2.7.egg
+creating /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Sphinx-1.0.4-py2.7.egg
+Extracting Sphinx-1.0.4-py2.7.egg to /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages
+Adding Sphinx 1.0.4 to easy-install.pth file
+Installing sphinx-build script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing sphinx-quickstart script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing sphinx-autogen script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+
+Installed /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Sphinx-1.0.4-py2.7.egg
+Processing dependencies for Sphinx==1.0.4
+Searching for docutils>=0.5
+Reading http://pypi.python.org/simple/docutils/
+Reading http://docutils.sourceforge.net/
+Best match: docutils 0.7
+Downloading http://prdownloads.sourceforge.net/docutils/docutils-0.7.tar.gz?download
+Processing docutils-0.7.tar.gz
+Running docutils-0.7/setup.py -q bdist_egg --dist-dir /tmp/easy_install-z4MKtd/docutils-0.7/egg-dist-tmp-3sPxxW
+warning: no files found matching 'MANIFEST'
+warning: no previously-included files matching '.cvsignore' found under directory '*'
+warning: no previously-included files matching '*.pyc' found under directory '*'
+warning: no previously-included files matching '*~' found under directory '*'
+warning: no previously-included files matching '.DS_Store' found under directory '*'
+zip_safe flag not set; analyzing archive contents...
+docutils.parsers.rst.directives.misc: module references __file__
+docutils.writers.html4css1.__init__: module references __file__
+docutils.writers.latex2e.__init__: module references __file__
+docutils.writers.newlatex2e.__init__: module references __file__
+docutils.writers.odf_odt.__init__: module references __file__
+docutils.writers.pep_html.__init__: module references __file__
+docutils.writers.s5_html.__init__: module references __file__
+Adding docutils 0.7 to easy-install.pth file
+Installing rst2html.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rst2latex.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rst2man.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rst2newlatex.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rst2odt.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rst2odt_prepstyles.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rst2pseudoxml.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rst2s5.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rst2xml.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+Installing rstpep2html.py script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+
+Installed /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/docutils-0.7-py2.7.egg
+Searching for Jinja2>=2.2
+Reading http://pypi.python.org/simple/Jinja2/
+Reading http://jinja.pocoo.org/
+Best match: Jinja2 2.5.5
+Downloading http://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.5.5.tar.gz#md5=83b20c1eeb31f49d8e6392efae91b7d5
+Processing Jinja2-2.5.5.tar.gz
+Running Jinja2-2.5.5/setup.py -q bdist_egg --dist-dir /tmp/easy_install-oteQ41/Jinja2-2.5.5/egg-dist-tmp-I8E3n_
+warning: no previously-included files matching '*' found under directory 'docs/_build'
+warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+warning: no previously-included files matching '*.pyc' found under directory 'docs'
+warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+warning: no previously-included files matching '*.pyo' found under directory 'docs'
+Adding Jinja2 2.5.5 to easy-install.pth file
+
+Installed /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Jinja2-2.5.5-py2.7.egg
+Searching for Pygments>=0.8
+Reading http://pypi.python.org/simple/Pygments/
+Reading http://pygments.org/
+Reading http://pygments.pocoo.org/
+Best match: Pygments 1.3.1
+Downloading http://pypi.python.org/packages/source/P/Pygments/Pygments-1.3.1.tar.gz#md5=54be67c04834f13d7e255e1797d629a5
+Processing Pygments-1.3.1.tar.gz
+Running Pygments-1.3.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-Q5wIrj/Pygments-1.3.1/egg-dist-tmp-VqyYua
+Adding Pygments 1.3.1 to easy-install.pth file
+Installing pygmentize script to /Library/Frameworks/Python.framework/Versions/2.7/bin
+
+Installed /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/Pygments-1.3.1-py2.7.egg
+Finished processing dependencies for Sphinx==1.0.4

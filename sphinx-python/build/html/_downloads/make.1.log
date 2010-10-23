@@ -1,0 +1,66 @@
+make  all-am
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-png.lo `test -f 'png.c' || echo './'`png.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c png.c  -fno-common -DPIC -o .libs/libpng14_la-png.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c png.c -o libpng14_la-png.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngset.lo `test -f 'pngset.c' || echo './'`pngset.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngset.c  -fno-common -DPIC -o .libs/libpng14_la-pngset.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngset.c -o libpng14_la-pngset.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngget.lo `test -f 'pngget.c' || echo './'`pngget.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngget.c  -fno-common -DPIC -o .libs/libpng14_la-pngget.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngget.c -o libpng14_la-pngget.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngrutil.lo `test -f 'pngrutil.c' || echo './'`pngrutil.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngrutil.c  -fno-common -DPIC -o .libs/libpng14_la-pngrutil.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngrutil.c -o libpng14_la-pngrutil.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngtrans.lo `test -f 'pngtrans.c' || echo './'`pngtrans.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngtrans.c  -fno-common -DPIC -o .libs/libpng14_la-pngtrans.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngtrans.c -o libpng14_la-pngtrans.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngwutil.lo `test -f 'pngwutil.c' || echo './'`pngwutil.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngwutil.c  -fno-common -DPIC -o .libs/libpng14_la-pngwutil.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngwutil.c -o libpng14_la-pngwutil.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngread.lo `test -f 'pngread.c' || echo './'`pngread.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngread.c  -fno-common -DPIC -o .libs/libpng14_la-pngread.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngread.c -o libpng14_la-pngread.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngrio.lo `test -f 'pngrio.c' || echo './'`pngrio.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngrio.c  -fno-common -DPIC -o .libs/libpng14_la-pngrio.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngrio.c -o libpng14_la-pngrio.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngwio.lo `test -f 'pngwio.c' || echo './'`pngwio.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngwio.c  -fno-common -DPIC -o .libs/libpng14_la-pngwio.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngwio.c -o libpng14_la-pngwio.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngwrite.lo `test -f 'pngwrite.c' || echo './'`pngwrite.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngwrite.c  -fno-common -DPIC -o .libs/libpng14_la-pngwrite.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngwrite.c -o libpng14_la-pngwrite.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngrtran.lo `test -f 'pngrtran.c' || echo './'`pngrtran.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngrtran.c  -fno-common -DPIC -o .libs/libpng14_la-pngrtran.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngrtran.c -o libpng14_la-pngrtran.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngwtran.lo `test -f 'pngwtran.c' || echo './'`pngwtran.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngwtran.c  -fno-common -DPIC -o .libs/libpng14_la-pngwtran.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngwtran.c -o libpng14_la-pngwtran.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngmem.lo `test -f 'pngmem.c' || echo './'`pngmem.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngmem.c  -fno-common -DPIC -o .libs/libpng14_la-pngmem.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngmem.c -o libpng14_la-pngmem.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngerror.lo `test -f 'pngerror.c' || echo './'`pngerror.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngerror.c  -fno-common -DPIC -o .libs/libpng14_la-pngerror.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngerror.c -o libpng14_la-pngerror.o >/dev/null 2>&1
+/bin/sh ./libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.  -DPNG_CONFIGURE_LIBPNG   -arch i386 -arch x86_64 -arch ppc -c -o libpng14_la-pngpread.lo `test -f 'pngpread.c' || echo './'`pngpread.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngpread.c  -fno-common -DPIC -o .libs/libpng14_la-pngpread.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -DPNG_CONFIGURE_LIBPNG -arch i386 -arch x86_64 -arch ppc -c pngpread.c -o libpng14_la-pngpread.o >/dev/null 2>&1
+rm -f libpng.sym libpng.sym.new
+gcc -E -DPNG_CONFIGURE_LIBPNG  -DPNG_BUILDSYMS ./png.h | \
+		/usr/bin/sed -n -e \
+		's|^.*PNG_FUNCTION_EXPORT[ 	]*\(['_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789']*\).*$|\1|p' \
+		-e 's|^.*PNG_DATA_EXPORT[ 	]*\(['_abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789']*\).*$|\1|p' \
+			>libpng.sym.new
+mv libpng.sym.new libpng.sym
+/bin/sh ./libtool --tag=CC   --mode=link gcc  -arch i386 -arch x86_64 -arch ppc -no-undefined -export-dynamic -version-number 14:4:0  -export-symbols libpng.sym  -o libpng14.la -rpath /usr/local/lib libpng14_la-png.lo libpng14_la-pngset.lo libpng14_la-pngget.lo libpng14_la-pngrutil.lo libpng14_la-pngtrans.lo libpng14_la-pngwutil.lo libpng14_la-pngread.lo libpng14_la-pngrio.lo libpng14_la-pngwio.lo libpng14_la-pngwrite.lo libpng14_la-pngrtran.lo libpng14_la-pngwtran.lo libpng14_la-pngmem.lo libpng14_la-pngerror.lo libpng14_la-pngpread.lo  -lz 
+libtool: link: sed 's,^,_,' < libpng.sym > .libs/libpng14-symbols.expsym
+libtool: link: gcc -dynamiclib  -o .libs/libpng14.14.dylib  .libs/libpng14_la-png.o .libs/libpng14_la-pngset.o .libs/libpng14_la-pngget.o .libs/libpng14_la-pngrutil.o .libs/libpng14_la-pngtrans.o .libs/libpng14_la-pngwutil.o .libs/libpng14_la-pngread.o .libs/libpng14_la-pngrio.o .libs/libpng14_la-pngwio.o .libs/libpng14_la-pngwrite.o .libs/libpng14_la-pngrtran.o .libs/libpng14_la-pngwtran.o .libs/libpng14_la-pngmem.o .libs/libpng14_la-pngerror.o .libs/libpng14_la-pngpread.o   -lz  -arch i386 -arch x86_64 -arch ppc   -install_name  /usr/local/lib/libpng14.14.dylib -compatibility_version 19 -current_version 19.0 -Wl,-single_module -Wl,-exported_symbols_list,.libs/libpng14-symbols.expsym
+libtool: link: dsymutil .libs/libpng14.14.dylib || :
+warning: no debug map in executable (-arch i386)
+warning: no debug map in executable (-arch x86_64)
+warning: no debug map in executable (-arch ppc)
+libtool: link: (cd ".libs" && rm -f "libpng14.dylib" && ln -s "libpng14.14.dylib" "libpng14.dylib")
+libtool: link: ar cru .libs/libpng14.a  libpng14_la-png.o libpng14_la-pngset.o libpng14_la-pngget.o libpng14_la-pngrutil.o libpng14_la-pngtrans.o libpng14_la-pngwutil.o libpng14_la-pngread.o libpng14_la-pngrio.o libpng14_la-pngwio.o libpng14_la-pngwrite.o libpng14_la-pngrtran.o libpng14_la-pngwtran.o libpng14_la-pngmem.o libpng14_la-pngerror.o libpng14_la-pngpread.o
+libtool: link: ranlib .libs/libpng14.a
+libtool: link: ( cd ".libs" && rm -f "libpng14.la" && ln -s "../libpng14.la" "libpng14.la" )
+cp libpng-config libpng14-config
+cp libpng.pc libpng14.pc
