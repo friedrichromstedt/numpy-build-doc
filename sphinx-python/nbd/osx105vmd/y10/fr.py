@@ -200,7 +200,7 @@ def sphinx104_py25():
 
 def sphinx104_py25_docs():
     """
-    10/15/10
+    -- 10/15/10
 
     *   Building the local Sphinx docs.
 
@@ -264,6 +264,8 @@ def numpy200dev_py25_test():
 
 def numpy150rc1_py25():
     """
+    -- 10/15/10 approx.
+
     *   We want numpy v1.5.0rc1.
     """
     return '''
@@ -275,6 +277,8 @@ def numpy150rc1_py25():
 
 def numpy150rc1_py25_test():
     """
+    -- 10/15/10 approx.
+
     *   Testing numpy.
 
         This gives some errors.
@@ -285,6 +289,8 @@ def numpy150rc1_py25_test():
 
 def numpy141_py25():
     """
+    -- 10/15/10 approx.
+
     *   Reverting to numpy v1.4.1::
     """
     return '''
@@ -296,6 +302,8 @@ def numpy141_py25():
 
 def numpy141_py25_test():
     """
+    -- 10/15/10 approx.
+
     *   Testing numpy.
             
         Lotsa errors.
@@ -306,6 +314,8 @@ def numpy141_py25_test():
 
 def numpy150rc1_py25_2nd():
     """
+    -- 10/15/10 approx.
+
     *   Actaully numpy v1.5.0rc1 *should* work (since current dev is 2.0.0), so 
         reverting to that.
 
@@ -320,6 +330,8 @@ def numpy150rc1_py25_2nd():
 
 def freetype243():
     """
+    -- 10/15/10 approx.
+
     *   Installing Freetype2 from::
 
             Shared/Downloads/2010/Freetype2/freetyp-2.4.3.tar.bz2
@@ -332,6 +344,8 @@ def freetype243():
 
 def libpng144_1st():
     """
+    -- 10/15/10 approx.
+
     **Deprecated**
 
     *   Installing libpng 1.4.4 from::
@@ -350,6 +364,8 @@ def libpng144_1st():
 
 def matplotlib_py25_1st():
     """
+    -- 10/15/10 approx.
+
     **Deprecated**
 
     *   Compiling matplotlib.
@@ -362,6 +378,8 @@ def matplotlib_py25_1st():
 
 def libpng144_2nd():
     """
+    -- 10/15/10 approx.
+
     **Deprecated**
 
     *   Trying to fat compile libpng 1.2.44.
@@ -375,6 +393,8 @@ def libpng144_2nd():
 
 def libpng144_3rd():
     """
+    -- 10/15/10 approx.
+
     *   Trying libpng 1.4.4 again.
 
         SUCCESS!
@@ -398,6 +418,8 @@ def libpng144_3rd():
 
 def matplotlib_py25_2nd():
     """
+    -- 10/15/10 approx.
+
     *   Retrying matplotlib compilation.
 
         YOH
@@ -412,6 +434,8 @@ def matplotlib_py25_2nd():
 
 def dmg_numpy150rc1_py25_1st():
     """
+    -- 10/15/10 approx.
+
     *   In numpy-deployment.
 
         Some problem with numpydoc prolly missing (docutils problem).
@@ -422,6 +446,8 @@ def dmg_numpy150rc1_py25_1st():
 
 def numpydoc14_py25():
     """
+    -- 10/15/10 approx.
+
     *   Installing numpydoc 1.4 from::
 
             Shared/Downloads/2010/Numpydoc/numpydoc-0.4.tar.gz
@@ -434,6 +460,8 @@ def numpydoc14_py25():
 
 def dmg_numpy150rc1_py25_2nd():
     """
+    -- 10/15/10 approx.
+
     *   In numpy-deployment.
 
         Same error persists, in trac known but marked as fixed.
@@ -443,6 +471,8 @@ def dmg_numpy150rc1_py25_2nd():
 
 def dmg_numpy141rc3_py25_1st():
     """
+    -- 10/15/10 approx.
+
     *   Using 1.4.1rc3.
 
         Even worser (error occurs earlier).
@@ -453,6 +483,8 @@ def dmg_numpy141rc3_py25_1st():
 
 def dmg_numpy200dev_py25_1st():
     """
+    -- 10/15/10 approx.
+
     *   Using 2.0.0.dev.
 
         pdflatex not found.
@@ -463,6 +495,8 @@ def dmg_numpy200dev_py25_1st():
 
 def dmg_numpy200dev_py25_2nd():
     """
+    -- 10/15/10 approx.
+
     *   Retrying with extended PATH.
 
         .4.log accidentally overwirtten :-(
@@ -475,6 +509,8 @@ def dmg_numpy200dev_py25_2nd():
 
 def dmg_numpy200dev_py25_3rd():
     """
+    -- 10/15/10 approx.
+
     *   Wrong documentation.
     """
     return '''
