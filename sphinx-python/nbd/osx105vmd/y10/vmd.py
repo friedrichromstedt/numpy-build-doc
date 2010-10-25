@@ -126,7 +126,7 @@ def sphinx104_py27_105():
         
 def sphinx104_py27_105_docs():
     """
-    10/15/10
+    10/22/10
 
     *   Building the local Sphinx docs.
 
@@ -137,7 +137,7 @@ def sphinx104_py27_105_docs():
     
 def nose0113_py27_105():
     """
-    -- 10/15/10
+    -- 10/22/10
 
     *   Installing nose 0.11.3 from::
         
@@ -146,3 +146,32 @@ def nose0113_py27_105():
     return '''
         python2.7 setup.py build 2>&1 | tee setup-build.log
         python2.7 setup.py install 2>&1 | tee setup-install.log'''
+        
+def numpy15x_py27_105():
+    """
+    *   We want numpy v1.5.x
+    last commit
+    105osxpython:numpy Vincent$ git log
+    commit c0bd3dfe43e3ec554f30521a86a3ef9fe3e98273
+    Author: Pauli Virtanen <pav@iki.fi>
+    Date:   Wed Oct 20 21:24:28 2010 +0200
+    """
+    return '''
+        git checkout maintenance/1.5.x-py2.7-python.org-maxosx10.5
+        rm -r build
+        python2.7 setup.py build 2>&1 | tee Logs/10-10-22/setup-build.2.log
+        python2.7 setup.py install 2>&1 | tee Logs/10-10-22/setup-install.2.log'''
+        
+def matplotlib_v1_0_maint_py27_105():
+    """
+    -- 10/23/10
+    Downloaded the maintenace release of matplotlib v1
+    need to modify line 66
+    # Original 'darwin' : [],
+    to
+    'darwin' : ['/usr/local'],
+    """
+    return '''
+       
+        python2.7 setup.py build 2>&1 | tee Logs/10-10-22/setup-build.2.log
+        python2.7 setup.py install 2>&1 | tee Logs/10-10-22/setup-install.2.log'''

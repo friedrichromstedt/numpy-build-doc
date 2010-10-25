@@ -515,3 +515,390 @@ def dmg_numpy200dev_py25_3rd():
     """
     return '''
         paver2.5 dmg 2>&1 | tee Logs/10-10-15/paver-dmg.6.log'''
+
+def python27_framework_permissions_1st():
+    """
+    -- 10/22/10 approx.
+
+    *   Used TinkerTool System 2.4 to set up permissions in::
+
+            /Library/Frameworks/Python.framework/Versions/...
+
+        to "Full Control" for ``group:admin``.
+
+    *   Unfortunately, as we found out on 10/23/10, this breaks nosetests,
+        because the ``execute`` permission is set for all files.
+
+        -   bash seens to ignore this.  Test: Files in Shared have undergone
+            the same permission process, but do not show up in Tab 
+            completion in bash.
+
+        -   But nosetests seems to not ignore it.  At least it's telling
+            that the files are ignore because they are executable, and thus
+            in effect no numpy test is run.
+
+    *   A fix is provided in 
+        :func:`nbd.osx105vmd.y10.fr.python27_framework_permissions_2nd`.
+    """
+    return '''
+        # Used TinkerTool's GUI to make the changes.'''
+
+#
+# Initialising git repos in :file:`Versions/2.5`, :file:`Versions/2.6` and
+# :file:`Versions/2.7`
+#
+
+def python27_framework_git_1st():
+    """
+    -- 10/22/10
+
+    *   Set up a git repo in::
+            
+            /Library/Frameworks/Python.framework/Versions/2.7/
+
+    *   We used after some plumbing the following :file:`.gitignore`::
+            
+            .DS_Store
+
+        for this reasons:
+
+        -   Ignoring :file:`.pyc` and :file:`.pyo` makes them untracked, so
+            they will survive branch switching.  When the :file:`.pyc` file
+            is more recent than the checked-out :file:`.py` file, this causes
+            trouble.
+
+    *   We used this :file:`.gitattributes`::
+            
+            *.so -text
+            *.pyc -text
+            *.pyo -text
+
+        to make this file types binary in the repo.
+
+        The repo is *not* planned to be published.
+    """
+    return '''
+        # See the git log'''
+
+def python27_framework_git_2nd():
+    """
+    -- 10/23/10 13:38
+
+    *   Providing scripts to fix the permission mistake mentioned in 
+        :func:`nbd.odx105vmd.y10.fr.python27_framework_git_1st`.
+
+        -   :file:`/Library/Frameworks/Python.framework/Versions/fix_global.sh`
+        -   :file:`/Library/Frameworks/Python.framework/Versions/fix2.7.sh`
+
+        The ``global`` file is here for download, just adapt the ``DIR`` 
+        variable to your needs:
+        :download:`//Library/Frameworks/Python.framework/Versions/fix_global.sh`
+
+    *   I found out that the ``search`` permission on directories translates
+        to the not-wanted ``execute`` permission on files once inherited.
+
+        To avoid the wrong permission on newly created files, the inheriting
+        permissions on the :file:`2.*` directories should be changed, and once
+        the permissions should be propagated.  This is done by the 
+        :file:`fix_global.sh` script.
+
+        I fixed the perms on :file:`2.7` manually with::
+
+            chmod -a "group:admin allow execute" .
+            chmod -a "group:admin allow search" .
+
+        while in the :file:`2.7` dir.  The ``allow execute`` step is most
+        likely not needed.
+
+    *   From ow on, the :file:`fix*.sh` scripts will most likely not be
+        necessary anymore, because the :file:`2.*` directories in
+        :file:`Versions/` will inherit the correct rights.  The perms have
+        been propagated in *all* versions.
+    """
+    return '''
+        /Library/Frameworks/Python.framework/Versions/fix_global.sh'''
+
+# ===== From here to add to the timeline =====
+
+def python25_framework_git_1st():
+    """
+    -- 10/24/10 06:12
+
+    *   Initialising a git repo in :file:`Versions/2.5`.
+        
+        -   One branch for normal Python use: ``normal``
+
+        -   One branch where the numpy during installer builds gets
+            installed: ``installer``
+
+        -   Empty ``master`` branch, containing only the config files for
+            git.
+
+        -   Copying over the config files from the :file:`Versions/2.7/` dir.
+        
+        -   Adding the files to the ``normal`` branch, and branching the
+            ``installer`` branch from that.
+    """
+    return '''
+        git init
+        cp ../2.7/.gitignore ../2.7/.gitattributes .
+        git add .gitignore .gitattributes
+        git commit
+        git branch normal
+        git checkout normal
+        git add *
+        git commit
+        git branch installer
+        git checkout installer
+        '''
+
+def python26_framework_git_1st():
+    """
+    -- 10/24/10 06:30
+
+    *   See :func:`nbd.osx105vmd.y10.fr.python25_framework_git_1st`
+    """
+    return '''
+        => nbd.osx105vmd.y10.fr.python25_framework_git_1st
+        '''
+
+def python27_framework_git_3rd():
+    """
+    -- 10/24/10 06:42
+
+    *   Restructuring the branch structure in Python 2.7:
+
+        -   ``normal`` and ``installer`` branches under ``10.3`` and ``10.5``
+            directories
+
+        -   Other feature branches may be added under the ``10.3`` and `10.5``
+            directoies when working on the Python installation.
+    """
+    return '''
+        git status
+        git checkout master
+        git branch -m 10.3 10.3/normal
+        git branch -m 10.5 10.5/normal
+        git checkout 10.3/normal
+        git branch 10.3/installer
+        git checkout 10.5/normal
+        git branch 10.5/installer
+        '''
+
+def python_framework_git_1st():
+    """
+    10/24/10 07:47
+
+    *   Renaming the branch structure of all Python system repos:
+
+        -   ``normal -> vmd``
+        -   ``installer -> numpy``
+        -   branching ``fr`` from ``vmd``
+
+        to accomodate with maybe upcoming scipy builds, or whatever the
+        future might bring.
+    """
+    return '''
+        git branch  # on branch normal
+        git branch -m vmd
+        git branch fr
+        git branch -m installer numpy
+        '''
+
+#
+# Setting up status-reporting :file:`sitecustomize.py` files in all Pythons
+# 
+
+def python_sitecustomize_1st():
+    """
+    -- 10/24/10 08:00
+
+    *   Modifying the :file:`lib/pythonx.y/site-packages/sitecustomize.py`
+        files such that it prints what family the Python belongs to.
+
+        This will be printed each time the Python starts.
+
+        E.g.::
+            
+            print "Python 2.5 on branch family python"
+
+            print "Python 2.7 on branch family 10.5/vmd"
+
+        Feature branches in the Python system git repos should:
+
+        -   Not change this file.
+
+        -   Not mix families.  The different Python families should be
+            treated as independent installations and no merge should transfer
+            installation files from one to the other.
+    """
+    return '''
+        # checkout, edit sitecustomize.py, commit, ...
+        '''
+
+#
+# Preparing a proper 1.5.1rc1-py2.5-python.org-macosx10.3 release
+#
+
+def dmg_151rc1_py25_pythonorg_macosx103_1st():
+    """
+    -- 10/24/10 10:39
+
+    *   Resetting Vincent's pollution of the 1.5.x branch with commits
+        intended for the 1.5.x-py2.7-python.org-macosx10.5 branch.
+
+        They are still in that branch.  Just the 1.5.x branch has been
+        resetted.
+
+    *   Branching the 1.5.x-py2.5-python.org-macosx10.3 branch from the
+        1.5.x branch.  We did a fetch numpy today, everything was up to date,
+        the last commit was in fact 3 days ago.
+
+    *   Checking that the ``numpy`` branch of Python 2.5 is active.
+
+    *   **NOTE**: The following complicates the thingy:
+        
+        1.  On the 1.5.x-py2.* branch, a checkout and commit of the
+            tagged 1.5.x branch, e.g. v1.5.1rc1, would be necessary.
+
+        2.  But when checking out v1.5.1rc1, the HEAD goes detached.  So it's
+            impossible then to commit to 1.5.1-py2.*.
+
+        Following a solution:
+        
+        1.  checkout of e.g. v1.5.1rc1.  HEAD goes detached.
+
+        2.  Starting a new branch, named by the tag, e.g. 
+            1.5.1rc1-py2.5-python.org-macosx10.3.
+
+        3.  Committing to this tag the subsequent logs and dmgs.
+
+        So it seems not feasible to have the 1.5.x series dmgs in a single
+        branch, except when following the build process like this:
+
+        1.  checkout of e.g. v1.5.1rc1.
+
+        2.  Starting the 1.5.x-py2.5-python.org-macosx10.3 branch (as an
+            example).
+
+        3.  Committing on this branch the dmgs.
+
+        4.  Patching the source by merge v1.5.1rc2, or by merge 1.5.x.
+
+        5.  Continuing generating dmgs and committing them.
+
+        But this technique has the conspicuous drawback that once e.g.
+        rc1 is finished and the commits went on to rc2, no more commits
+        using the rc1 codebase is possible.
+
+        So I favour the "one branch for each release" scheme.
+    """
+    return '''
+        git branch maintenance/1.5.x
+        git reset --hard c0bd3f
+        git branch maintenance/1.5.x-py2.5-python.org-macosx10.3
+        pushd /Library/Frameworks/Python.framework/Versions/2.5
+        git status
+        # On branch numpy
+        popd
+        '''
+
+def dmg_151rc1_py25_pythonorg_macosx103_2nd():
+    """
+    -- 10/24/10 12:11
+
+    *   Deleting the 1.5.x-py2.7-python.org-macosx10.3 branch, while on
+        1.5.x.
+
+    *   Checking out v1.5.1rc1, and branching the detached HEAD to
+        maintenance/release/1.5.1rc1-py2.5-python.org-macosx10.3.
+
+    *   Decided not to put it under maintenance, but directly under release/.
+
+    *   Python 2.5 is on the ``numpy`` branch.
+
+    *   The steps remaining from the instructions in :file:`pavement.py` are::
+
+            python setupegg.py install
+            paver dmg
+
+        This are on our system, since also setupegg.py is equivalent to
+        calling setup.py directly (see its content)::
+
+            python2.5 setup.py build 2>&1 | tee release/logs/01.setup-build.log
+            # git ...
+            python2.5 setup.py install 2>&1 | tee release/logs/02.setup-install.log
+            # git ...
+            paver2.5 dmg 2>&1 | tee release/logs/02.paver25-dmg.log
+
+    *   Compilation looks good, ``MACOSX_DEPLOYMENT_TARGET=10.3``
+        effectively, although not set manually.
+
+    *   We do refrain from adding build/ to the repo.  The steps given should
+        suffice for reproduction.  The files built can be inspected from
+        the Python 2.5 system commit.
+
+    *   Since :file:`*.log` is in :file:`.gitignore`, renamed to 
+        :file:`*.rlog` (Release LOGs).
+
+    *   Install looks good.
+
+    *   Committing the change to system Python in :file:`Versions/2.5`.
+
+        :file:`bin/f2py` has been modified, I don't know why and how.
+        Saved a diff.
+
+    *   DMG created successfully.  It's duplicate in 
+        :file:`tools/numpy/macosx-installer` and :file:`release/installers`.
+        Removing the stuff created for the macosx-installer.
+
+    *   *Only* adding the dmg and the rlogs.  *Not* adding the pdfs 
+        generated, they are either not needed for reproduction or included
+        in the dmg.
+
+    *   Tests fail partially.
+    
+    *   Removing dangling directories left from the build process.  
+        **Needs-Revision**
+    """
+    return '''
+        git checkout maintenance/1.5.x
+        git branch -D 
+        git checkout v1.5.1rc1
+        git branch maintenance/release/1.5.1rc1-py2.5-python.org-macosx10.3
+        git checkout maintenance/release/1.5.1rc1-py2.5-python.org-macosx10.3
+        git branch -m release/1.5.1rc1-py2.5-python.org-macosx10.3
+        mkdir release
+        mkdir release/logs
+        python2.5 setup.py build 2>&1 | tee release/logs/01.setup-build.log
+        mv release/logs/01.setup-build.log release/logs/01.setup-build.rlog
+        git add numpy/version.py release
+        git commit -m "Build succeeded"
+        python2.5 setup.py install 2>&1 | tee release/logs/02.setup-install.rlog
+
+        pushd /Library/Frameworks/Python.framework/Versions/2.5
+        git diff bin/f2py > ~/Development/numpy/release/logs/03.bin-f2py.log
+        git add *
+        git commit -m "Installed numpy v1.5.1rc1"
+
+        popd
+        git add release/logs
+        git commit  # Noting the system Python commit.
+        paver2.5 -p 2.5 dmg 2>&1 | tee release/logs/04.paver25-p25-dmg.rlog
+        paver2.5 dmg -p 2.5 2>&1 | tee release/logs/05.paver25-dmg-p25.rlog
+
+        cd tools/numpy-macosx-installer
+        rm -r content numpy-1.5.1rc1-py2.5-python.org-macosx10.3.dmg
+
+        cd ../../
+        git add release
+        git commit -m "dmg built"
+
+        pushd release/logs 
+        python2.5 -c "import numpy; numpy.test()" 2>&1 | tee 06.python25-c-test.rlog
+        git add 06.python25-c-test.rlog
+        git commit
+
+        popd
+        rm -r build_doc doc/source/referece/generated
+        '''

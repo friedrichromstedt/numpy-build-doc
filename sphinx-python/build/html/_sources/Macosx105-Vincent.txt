@@ -43,6 +43,7 @@ Installing matplotlib
 -   :func:`nbd.osx105vmd.y10.fr.libpng144_3rd`
 -   :func:`nbd.osx105vmd.y10.fr.matplotlib_py25_2nd`
 
+
 Giving numpy 1.5.0rc1 dmg a Try with Paver
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -53,6 +54,40 @@ Giving numpy 1.5.0rc1 dmg a Try with Paver
 -   :func:`nbd.osx105vmd.y10.fr.dmg_numpy200dev_py25_1st`
 -   :func:`nbd.osx105vmd.y10.fr.dmg_numpy200dev_py25_2nd`
 -   :func:`nbd.osx105vmd.y10.fr.dmg_numpy200dev_py25_3rd`
+
+
+Here go Vincent's Logs from approx. 10/21/10
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Setting up Permissions in :file:`Python.framework/Versions`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-   :func:`nbd.osx105vmd.y10.fr.python27_framework_permissions_1st`
+
+
+Setting up Git Repos in :file:`Python.framework/Versions`
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-   :func:`nbd.osx105vmd.y10.fr.python27_framework_git_1st`
+-   :func:`nbd.osx105vmd.y10.fr.python27_framework_git_2nd`
+-   :func:`nbd.osx105vmd.y10.fr.python25_framework_git_1st`
+-   :func:`nbd.osx105vmd.y10.fr.python26_framework_git_1st`
+-   :func:`nbd.osx105vmd.y10.fr.python27_framework_git_3rd`
+-   :func:`nbd.osx105vmd.y10.fr.python_framework_git_1st`
+
+
+Setting up Status-Reporting :file:`sitecustomize.py` Files in all Pythons
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-   :func:`nbd.osx105vmd.y10.fr.python_sitecustomiz_1st`
+
+
+Preparing a Proper 1.5.1rc1-py2.5-python.org-macosx10.3 release
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+-   :func:`nbd.osx105vmd.y10.fr.dmg_151rc1_py25_pythonorg_macosx103_1st`
+-   :func:`nbd.osx105vmd.y10.fr.dmg_151rc1_py25_pythonorg_macosx103_2nd`
 
 
 Source Codes
